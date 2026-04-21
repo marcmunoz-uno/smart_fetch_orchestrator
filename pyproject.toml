@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "smart-fetch-orchestrator"
+version = "0.1.0"
+description = "Unified property scraping with tiered fallback and three-source validation"
+requires-python = ">=3.9"
+dependencies = [
+    "requests>=2.28",
+]
+
+[project.optional-dependencies]
+all = [
+    "curl_cffi>=0.7",
+    "playwright>=1.40",
+]
+
+[tool.setuptools.packages.find]
+include = ["smart_fetch*"]
