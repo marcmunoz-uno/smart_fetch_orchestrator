@@ -7,3 +7,6 @@ dist/
 build/
 .venv/
 venv/
+
+# Test harness output artifacts (regenerated on each run)
+scripts/*_last_run.json
