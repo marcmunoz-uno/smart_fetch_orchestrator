@@ -30,6 +30,12 @@ def _get_fetcher(name):
     elif name == "brightdata_proxy_playwright":
         from smart_fetch.fetchers import playwright_fetcher
         return playwright_fetcher  # caller passes use_proxy=True
+    elif name == "firecrawl":
+        from smart_fetch.fetchers import firecrawl_fetcher
+        return firecrawl_fetcher
+    elif name in ("browserbase", "browserbase_extract"):
+        from smart_fetch.fetchers import browserbase_fetcher
+        return browserbase_fetcher
     return None
 
 def _get_route(url):

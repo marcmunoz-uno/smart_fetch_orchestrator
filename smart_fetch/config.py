@@ -28,20 +28,17 @@ CLOUDFLARE_EMAIL = os.environ.get("CLOUDFLARE_EMAIL", "")
 # URL routing rules — which fetcher to use for which domain
 ROUTE_RULES = {
     "zillow.com": {
-        "pdp": ["brightdata_zillow", "curl_cffi", "playwright"],  # individual listings
-        "search": ["curl_cffi", "brightdata_proxy_playwright"],    # search pages
+        "pdp": ["brightdata_zillow", "curl_cffi", "firecrawl", "browserbase", "playwright"],
+        "search": ["browserbase", "curl_cffi", "firecrawl", "brightdata_proxy_playwright"],
     },
-    "redfin.com": ["playwright", "curl_cffi"],
-    "realtor.com": ["playwright", "curl_cffi"],
-    "bid4assets.com": ["playwright", "cloudflare_crawl"],
-    "realforeclose.com": ["playwright", "cloudflare_crawl"],
-    # County/gov sites — Cloudflare crawl first, Playwright fallback
-    "cookcountyil.gov": ["cloudflare_crawl", "playwright"],
-    "franklincountyauditor.com": ["cloudflare_crawl", "playwright"],
-    # Default for unknown domains
-    "_default": ["curl_cffi", "playwright", "cloudflare_crawl"],
-    # Government/county pattern match
-    "_gov": ["cloudflare_crawl", "playwright", "requests"],
+    "redfin.com": ["firecrawl", "browserbase", "playwright", "curl_cffi"],
+    "realtor.com": ["firecrawl", "browserbase", "playwright", "curl_cffi"],
+    "bid4assets.com": ["firecrawl", "browserbase", "playwright", "cloudflare_crawl"],
+    "realforeclose.com": ["firecrawl", "browserbase", "playwright", "cloudflare_crawl"],
+    "cookcountyil.gov": ["firecrawl", "cloudflare_crawl", "browserbase", "playwright"],
+    "franklincountyauditor.com": ["firecrawl", "cloudflare_crawl", "browserbase", "playwright"],
+    "_default": ["curl_cffi", "firecrawl", "browserbase", "playwright", "cloudflare_crawl"],
+    "_gov": ["firecrawl", "cloudflare_crawl", "browserbase", "playwright", "requests"],
 }
 
 # Validation thresholds
@@ -56,6 +53,14 @@ VALIDATION = {
     },
 }
 
+# Firecrawl
+FIRECRAWL_API_KEY = os.environ.get("FIRECRAWL_API_KEY", "")
+FIRECRAWL_BASE = "https://api.firecrawl.dev/v1"
+
+# Browserbase
+BROWSERBASE_API_KEY = os.environ.get("BROWSERBASE_API_KEY", "")
+BROWSERBASE_PROJECT_ID = os.environ.get("BROWSERBASE_PROJECT_ID", "")
+
 # Rate limiting
 RATE_LIMITS = {
     "brightdata_zillow": {"delay_s": 2.0, "max_per_min": 25},
@@ -64,4 +69,6 @@ RATE_LIMITS = {
     "cloudflare_crawl": {"delay_s": 1.0, "max_per_min": 30},
     "curl_cffi": {"delay_s": 0.3, "max_per_min": 60},
     "playwright": {"delay_s": 2.0, "max_per_min": 15},
+    "firecrawl": {"delay_s": 1.0, "max_per_min": 30},
+    "browserbase": {"delay_s": 3.0, "max_per_min": 10},
 }
