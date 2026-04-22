@@ -90,16 +90,26 @@ def fetch(url, wait_selector=None, timeout_ms=30000, **kwargs):
 
             html = page.content()
             title = page.title()
+            status = response.status if response else 0
 
             browser.close()
 
+            # A navigation that returned but hit a block page is not a success.
+            blocked = (
+                status >= 400
+                or "Access to this page has been denied" in html
+                or "px-captcha-error-message" in html
+            )
+
             result = {
-                "success": True,
+                "success": not blocked,
                 "html": html,
                 "title": title,
-                "status": response.status if response else 0,
+                "status": status,
                 "source": "browserbase",
             }
+            if blocked:
+                result["error"] = f"blocked (status={status}, title={title[:80]!r})"
             if captured_json:
                 result["captured_json"] = captured_json
 

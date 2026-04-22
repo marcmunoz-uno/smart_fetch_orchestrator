@@ -55,11 +55,22 @@ def fetch(url, formats=None, timeout=30, **kwargs):
         return {"success": False, "error": body.get("error", "unknown error from Firecrawl")}
 
     data = body.get("data", {})
+    metadata = data.get("metadata", {})
+    status = metadata.get("statusCode")
+    if isinstance(status, int) and status >= 400:
+        return {
+            "success": False,
+            "error": f"upstream HTTP {status}",
+            "html": data.get("html", ""),
+            "markdown": data.get("markdown", ""),
+            "metadata": metadata,
+            "source": "firecrawl",
+        }
     return {
         "success": True,
         "html": data.get("html", ""),
         "markdown": data.get("markdown", ""),
-        "metadata": data.get("metadata", {}),
+        "metadata": metadata,
         "source": "firecrawl",
     }
 

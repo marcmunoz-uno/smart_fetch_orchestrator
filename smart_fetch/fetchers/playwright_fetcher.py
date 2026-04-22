@@ -55,13 +55,26 @@ def fetch(url, wait_selector=None, timeout_ms=30000, use_proxy=False, **kwargs):
 
             browser.close()
 
-            if response and response.status == 403:
-                return {"success": False, "error": "blocked (403)", "status": 403}
+            status = response.status if response else 0
+            title_lc = title.lower()
+            blocked = (
+                status >= 400
+                or "access denied" in title_lc
+                or "captcha" in title_lc
+                or "access to this page has been denied" in html
+                or "px-captcha-error-message" in html
+            )
+            if blocked:
+                return {
+                    "success": False,
+                    "error": f"blocked (status={status}, title={title[:80]!r})",
+                    "status": status,
+                    "html": html,
+                    "title": title,
+                    "source": "playwright",
+                }
 
-            if "access denied" in title.lower() or "captcha" in title.lower():
-                return {"success": False, "error": f"blocked: {title}"}
-
-            result = {"success": True, "html": html, "title": title, "status": response.status if response else 0, "source": "playwright"}
+            result = {"success": True, "html": html, "title": title, "status": status, "source": "playwright"}
             if captured_json:
                 result["captured_json"] = captured_json
 

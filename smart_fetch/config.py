@@ -29,7 +29,9 @@ CLOUDFLARE_EMAIL = os.environ.get("CLOUDFLARE_EMAIL", "")
 ROUTE_RULES = {
     "zillow.com": {
         "pdp": ["brightdata_zillow", "curl_cffi", "firecrawl", "browserbase", "playwright"],
-        "search": ["browserbase", "curl_cffi", "firecrawl", "brightdata_proxy_playwright"],
+        # firecrawl first: smoke test (Apr 22) showed firecrawl reliably returns
+        # full Zillow search HTML while browserbase hits PX 403 ~50% of the time.
+        "search": ["firecrawl", "browserbase", "curl_cffi", "brightdata_proxy_playwright"],
     },
     "redfin.com": ["firecrawl", "browserbase", "playwright", "curl_cffi"],
     "realtor.com": ["firecrawl", "browserbase", "playwright", "curl_cffi"],
