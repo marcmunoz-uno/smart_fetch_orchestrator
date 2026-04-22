@@ -365,20 +365,30 @@ def fetch_market(city: str, state: str, min_price: int = 50000, max_price: int =
     """
     from pathlib import Path
 
-    # Build Zillow search URL
+    # Build Zillow search URLs. Zillow throttles the `homes/for_sale/{slug}_rb/`
+    # path for some markets (e.g. Chicago, Detroit, Houston, Jackson, Little Rock,
+    # Macon) down to ~9 results even when the market is fine. Fall back to the
+    # unfiltered `homes/{slug}_rb/` path, which serves the full ~40-listing page.
     slug = f"{city.replace(' ', '-')}-{state}"
-    search_url = f"https://www.zillow.com/homes/for_sale/{slug}_rb/"
+    search_urls = [
+        f"https://www.zillow.com/homes/for_sale/{slug}_rb/",
+        f"https://www.zillow.com/homes/{slug}_rb/",
+    ]
 
-    # Try fetching the search page
-    result = fetch_url(search_url, wait_selector="article")
+    urls: set = set()
+    import re
+    result = None
+    for search_url in search_urls:
+        result = fetch_url(search_url, wait_selector="article")
+        if result.get("success") and result.get("html"):
+            urls = set(re.findall(r'https://www\.zillow\.com/homedetails/[^\s"\']+', result["html"]))
+            if len(urls) >= 15:
+                break  # good-size search page; no need to retry
+        # else: try the next URL format
 
     properties = []
 
-    if result.get("success") and result.get("html"):
-        # Parse listing URLs from HTML
-        import re
-        urls = set(re.findall(r'https://www\.zillow\.com/homedetails/[^\s"\']+', result["html"]))
-
+    if urls:
         for url in list(urls)[:limit]:
             prop = fetch_property(url=url, enrich=enrich, validate=validate)
             if prop.get("address") or prop.get("streetAddress"):
