@@ -370,30 +370,59 @@ def fetch_market(city: str, state: str, min_price: int = 50000, max_price: int =
     # Macon) down to ~9 results even when the market is fine. Fall back to the
     # unfiltered `homes/{slug}_rb/` path, which serves the full ~40-listing page.
     slug = f"{city.replace(' ', '-')}-{state}"
-    search_urls = [
+    base_urls = [
         f"https://www.zillow.com/homes/for_sale/{slug}_rb/",
         f"https://www.zillow.com/homes/{slug}_rb/",
     ]
 
-    urls: set = set()
     import re
-    result = None
-    for search_url in search_urls:
-        result = fetch_url(search_url, wait_selector="article")
-        if result.get("success") and result.get("html"):
-            urls = set(re.findall(r'https://www\.zillow\.com/homedetails/[^\s"\']+', result["html"]))
-            if len(urls) >= 15:
-                break  # good-size search page; no need to retry
-        # else: try the next URL format
+    from concurrent.futures import ThreadPoolExecutor, as_completed
 
-    properties = []
+    def _collect_urls_from_page(search_url: str) -> set:
+        r = fetch_url(search_url, wait_selector="article")
+        if r.get("success") and r.get("html"):
+            return set(re.findall(r'https://www\.zillow\.com/homedetails/[^\s"\']+', r["html"]))
+        return set()
+
+    # First try the filtered path; if the result is thin, try the unfiltered one.
+    urls: set = set()
+    base_used = None
+    for base in base_urls:
+        page_urls = _collect_urls_from_page(base)
+        if len(page_urls) >= 15:
+            urls = page_urls
+            base_used = base
+            break
+        urls |= page_urls
+        base_used = base  # remember the last base, even if thin
+
+    # Pagination: Zillow serves additional listings on `{base}N_p/` (pages 2–3).
+    # Widening here roughly doubles the per-market pool for free, since we
+    # already pay per-market fetch latency for page 1. Pages are fetched in
+    # parallel to hide their latency behind each other.
+    max_pages = 3
+    if base_used and len(urls) < limit * 2:
+        pagination_urls = [f"{base_used}{p}_p/" for p in range(2, max_pages + 1)]
+        with ThreadPoolExecutor(max_workers=len(pagination_urls)) as ex:
+            for fut in as_completed(ex.submit(_collect_urls_from_page, u) for u in pagination_urls):
+                urls |= fut.result()
+
+    properties: list = []
 
     if urls:
-        for url in list(urls)[:limit]:
-            prop = fetch_property(url=url, enrich=enrich, validate=validate)
-            if prop.get("address") or prop.get("streetAddress"):
-                properties.append(prop)
-            time.sleep(1)
+        # Per-PDP fetches in parallel — each PDP may hit BrightData (MCP with
+        # its own rate-limit sleep) and optionally HouseCanary + BatchData,
+        # so bounded concurrency keeps bursts within downstream per-minute
+        # limits while cutting total wall time ~3–4x on a 20-listing market.
+        capped = list(urls)[:limit]
+
+        def _fetch_one(url):
+            return fetch_property(url=url, enrich=enrich, validate=validate)
+
+        with ThreadPoolExecutor(max_workers=4) as ex:
+            for prop in ex.map(_fetch_one, capped):
+                if prop.get("address") or prop.get("streetAddress"):
+                    properties.append(prop)
 
     if not properties:
         # Fallback: load cached data and enrich
