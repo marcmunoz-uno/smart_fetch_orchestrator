@@ -20,7 +20,7 @@ from urllib.parse import urlparse
 
 import requests
 
-CONFIG = Path.home() / "government-seized-scraper" / "county_portal_config.json"
+CONFIG = Path.home() / "county-portal-scraper" / "county_portal_config.json"
 OUT = Path(__file__).parent / "portal_audit_last_run.json"
 
 UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "

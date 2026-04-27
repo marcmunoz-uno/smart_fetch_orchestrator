@@ -39,7 +39,7 @@ _load_env()
 
 from smart_fetch.orchestrator import fetch_url  # noqa: E402
 
-CONFIG = Path.home() / "government-seized-scraper" / "county_portal_config.json"
+CONFIG = Path.home() / "county-portal-scraper" / "county_portal_config.json"
 OUT = Path(__file__).parent / "portal_fetch_sweep_last_run.json"
 WORKERS = 4
 
