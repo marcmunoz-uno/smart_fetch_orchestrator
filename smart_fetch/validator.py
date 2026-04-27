@@ -26,14 +26,26 @@ def validate_property(prop: dict) -> dict:
     flags = []
     sources_used = []
 
-    # Collect price estimates from each source
-    prices = {}
+    # Split price estimates by kind: market-value sources (Zillow list price,
+    # HC AVM) are commensurable; tax-assessed (BatchData) is NOT — FL's
+    # Save-Our-Homes cap keeps tax-assessed at 40-60% of market, so mixing
+    # them produces spurious `price_divergence` flags on every FL property.
+    # Tax-assessed is kept for sources_used + as a fallback for best_price.
+    market_prices = {}
     if prop.get("listing_price") and prop["listing_price"] > 0:
-        prices["zillow"] = prop["listing_price"]
+        market_prices["zillow"] = prop["listing_price"]
     if prop.get("hc_avm_mean") and prop["hc_avm_mean"] > 0:
-        prices["housecanary"] = prop["hc_avm_mean"]
+        market_prices["housecanary"] = prop["hc_avm_mean"]
+
+    tax_assessed = None
     if prop.get("bd_tax_assessed") and prop["bd_tax_assessed"] > 0:
-        prices["batchdata"] = prop["bd_tax_assessed"]
+        tax_assessed = prop["bd_tax_assessed"]
+
+    # Keep `prices` populated for any downstream code that still reads it
+    # (e.g. for_sale_rental_detector.py) — includes tax for backward compat.
+    prices = dict(market_prices)
+    if tax_assessed is not None:
+        prices["batchdata"] = tax_assessed
 
     # Collect rent estimates
     rents = {}
@@ -51,26 +63,41 @@ def validate_property(prop: dict) -> dict:
     if prop.get("baths"): baths_sources["zillow"] = prop["baths"]
     if prop.get("hc_baths"): baths_sources["housecanary"] = prop["hc_baths"]
 
-    # --- Price validation ---
+    # --- Price validation (market sources only; tax-assessed is reference) ---
     best_price = None
-    if prices:
-        sources_used.extend(prices.keys())
-        values = list(prices.values())
-        best_price = _weighted_average(prices)
+    if market_prices:
+        sources_used.extend(market_prices.keys())
+        values = list(market_prices.values())
+        best_price = _weighted_average(market_prices)
 
         if len(values) >= 2:
             divergence = (max(values) - min(values)) / min(values) * 100
             if divergence > VALIDATION["price_divergence_pct"]:
-                flags.append(f"price_divergence_{divergence:.0f}pct: {prices}")
+                flags.append(f"price_divergence_{divergence:.0f}pct: {market_prices}")
 
             # Special flag: listing price way below AVM (could be incredible deal OR bad data)
-            if "zillow" in prices and "housecanary" in prices:
-                listing = prices["zillow"]
-                avm = prices["housecanary"]
+            if "zillow" in market_prices and "housecanary" in market_prices:
+                listing = market_prices["zillow"]
+                avm = market_prices["housecanary"]
                 if listing < avm * 0.5:
                     flags.append(f"listing_50pct_below_avm: ${listing:,} vs AVM ${avm:,}")
                 elif listing > avm * 1.3:
                     flags.append(f"listing_30pct_above_avm: ${listing:,} vs AVM ${avm:,}")
+    elif tax_assessed:
+        # No market sources — fall back to tax-assessed for best_price only.
+        best_price = tax_assessed
+
+    # Track tax-assessed as a contributing source without using it for divergence.
+    if tax_assessed is not None:
+        sources_used.append("batchdata")
+        # Sanity flag: if tax_assessed is more than 2x any market estimate,
+        # something is probably wrong (wrong property matched, not SOH cap).
+        if market_prices:
+            max_market = max(market_prices.values())
+            if tax_assessed > max_market * 2:
+                flags.append(
+                    f"tax_far_above_market: tax ${tax_assessed:,} vs max market ${max_market:,}"
+                )
 
     # --- Rent validation ---
     best_rent = None
