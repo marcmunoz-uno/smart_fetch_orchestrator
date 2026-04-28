@@ -2,6 +2,45 @@
 
 All notable changes to `smart_fetch_orchestrator` are documented here.
 
+## [3.1.1] — 2026-04-27
+
+### SQLite TTL cache for ATTOM enricher
+
+New module `smart_fetch/utils/api_cache.py` — generic SQLite-backed TTL cache, reusable for any API. Wired into the ATTOM enricher with per-endpoint TTLs:
+
+| Endpoint family | TTL |
+|---|---|
+| Property identity (basicprofile, expandedprofile, detail, snapshot) | 90 days |
+| Property detail (owner, mortgage) | 30 days |
+| Building permits | 60 days |
+| AVM (snapshot, detail, history) | 30 days |
+| Assessment / tax history | 90 days |
+| Sale + sale history | 60 days |
+
+**Cache location:** `~/.smart_fetch/cache.db` (override via `SMART_FETCH_CACHE_DIR` env var). SQLite WAL mode, multi-process safe.
+
+**API:**
+- `from smart_fetch.utils.api_cache import get_cache` — process-wide singleton
+- `cache.get(namespace, endpoint, params=...)` — None on miss, increments hit counter on hit
+- `cache.put(namespace, endpoint, value, params=..., ttl_seconds=...)`
+- `cache.invalidate(namespace, endpoint=None, params=None)` — bulk or specific
+- `cache.purge_expired()` — manual cleanup
+- `cache.stats(namespace=...)` — entry counts, hit counts per endpoint
+
+**ATTOM-specific helpers:**
+- `attom_enricher.cache_stats()` — pre-namespaced stats view
+- `attom_enricher.invalidate_cache()` — drop all ATTOM cache entries
+
+### Bug fix: ATTOM HTTP 400 quirk
+
+ATTOM returns HTTP 400 with `status.msg: 'SuccessWithoutResult'` when a property has no data for an endpoint (e.g. AVM not available). Previously this surfaced as `_error` and was never cached — so every empty-data property kept hitting ATTOM forever. Now treated as a cacheable success-without-data response. Real errors (401/403/429/5xx) still surface as `_error`.
+
+### Practical impact
+
+For typical property pipelines (~100-500 enrichments/day with repeat lookups across daily runs), expected cache hit rate after warmup: 80-90%. Drops effective ATTOM API consumption from ~6,000-30,000/month to ~600-3,000/month — typically within trial quota.
+
+Validated: cold call 1.24s → warm call 0.00s (cache hit).
+
 ## [3.1.0] — 2026-04-27
 
 ### ATTOM Property Data enricher

@@ -29,8 +29,39 @@ import requests
 from typing import Optional
 
 from smart_fetch.config import ATTOM_API_KEY, ATTOM_BASE, RATE_LIMITS
+from smart_fetch.utils.api_cache import get_cache
 
 _RATE = RATE_LIMITS["attom"]
+_CACHE_NS = "attom"
+
+# Per-endpoint TTLs in seconds. ATTOM data refreshes on assessor cycles
+# (quarterly), AVMs monthly, transactions/permits only when filed. Cache
+# aggressively; the trial quota is the binding constraint, not staleness.
+_DAY = 86400
+TTL_BY_ENDPOINT = {
+    # Property identity / characteristics — change essentially never
+    "/property/basicprofile":      90 * _DAY,
+    "/property/expandedprofile":   90 * _DAY,
+    "/property/detail":            90 * _DAY,
+    "/property/snapshot":          90 * _DAY,
+    "/property/detailowner":       30 * _DAY,
+    "/property/detailmortgage":    30 * _DAY,
+    "/property/buildingpermits":   60 * _DAY,
+    # AVM — monthly cycle; refresh after 30 days
+    "/avm/snapshot":               30 * _DAY,
+    "/avm/detail":                 30 * _DAY,
+    "/avmhistory/detail":          30 * _DAY,
+    # Assessment / tax — yearly
+    "/assessment/detail":          90 * _DAY,
+    "/assessment/snapshot":        90 * _DAY,
+    "/assessmenthistory/detail":   90 * _DAY,
+    # Sale / transactions — only changes when sold
+    "/sale/snapshot":              60 * _DAY,
+    "/sale/detail":                60 * _DAY,
+    "/saleshistory/detail":        60 * _DAY,
+    "/saleshistory/expandedhistory": 60 * _DAY,
+}
+DEFAULT_TTL = 30 * _DAY
 
 
 def _headers():
@@ -41,8 +72,27 @@ def _no_key():
     return {"_attom_error": "ATTOM_API_KEY not set"}
 
 
-def _get(path: str, params: dict, timeout: int = 20) -> dict:
-    """Single ATTOM GET. Returns the raw response JSON or {'_error': ...}."""
+def _is_success(payload: dict) -> bool:
+    """ATTOM returns 200 + status.msg='SuccessWithResult' on real hits."""
+    if not isinstance(payload, dict):
+        return False
+    if "_error" in payload:
+        return False
+    status = payload.get("status") or payload.get("Response", {}).get("status", {})
+    msg = (status or {}).get("msg", "") if isinstance(status, dict) else ""
+    return "Success" in str(msg)
+
+
+def _get(path: str, params: dict, timeout: int = 20, *, use_cache: bool = True) -> dict:
+    """ATTOM GET with SQLite cache. Cache-first; misses fetch and store on success only."""
+    cache = get_cache() if use_cache else None
+
+    if cache:
+        cached = cache.get(_CACHE_NS, path, params)
+        if cached is not None:
+            cached.setdefault("_cache_hit", True)
+            return cached
+
     try:
         resp = requests.get(f"{ATTOM_BASE}{path}", headers=_headers(), params=params, timeout=timeout)
     except requests.exceptions.Timeout:
@@ -52,12 +102,37 @@ def _get(path: str, params: dict, timeout: int = 20) -> dict:
     finally:
         time.sleep(_RATE["delay_s"])
 
-    if resp.status_code != 200:
-        return {"_error": f"HTTP {resp.status_code}: {resp.text[:200]}"}
+    # ATTOM quirk: returns HTTP 400 with `msg: SuccessWithoutResult` when a
+    # property has no data for that endpoint. The body still parses; cache it
+    # so we don't keep re-hitting the API for a known-empty property.
     try:
-        return resp.json()
-    except Exception as exc:
-        return {"_error": f"JSON parse: {exc}"}
+        body = resp.json()
+    except Exception:
+        if resp.status_code != 200:
+            return {"_error": f"HTTP {resp.status_code}: {resp.text[:200]}"}
+        return {"_error": "JSON parse failure"}
+
+    # 401/403/429/5xx are real errors — don't cache; surface to caller.
+    if resp.status_code in (401, 403, 429) or resp.status_code >= 500:
+        return {"_error": f"HTTP {resp.status_code}: {resp.text[:200]}"}
+
+    # Cache anything ATTOM considers a "Success" (with or without result).
+    if cache and _is_success(body):
+        ttl = TTL_BY_ENDPOINT.get(path, DEFAULT_TTL)
+        cache.put(_CACHE_NS, path, body, params=params, ttl_seconds=ttl)
+
+    return body
+
+
+def cache_stats() -> dict:
+    """Return ATTOM cache stats — entry counts, hits, freshness per endpoint."""
+    return get_cache().stats(namespace=_CACHE_NS)
+
+
+def invalidate_cache(endpoint: Optional[str] = None,
+                     params: Optional[dict] = None) -> int:
+    """Drop ATTOM cache entries. No args → drop everything ATTOM-namespaced."""
+    return get_cache().invalidate(_CACHE_NS, endpoint=endpoint, params=params)
 
 
 def _addr_params(prop: dict) -> Optional[dict]:
