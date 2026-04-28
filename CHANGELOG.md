@@ -2,6 +2,44 @@
 
 All notable changes to `smart_fetch_orchestrator` are documented here.
 
+## [3.1.0] — 2026-04-27
+
+### ATTOM Property Data enricher
+
+Added `smart_fetch/enrichers/attom_enricher.py` — wraps ATTOM's gold-standard property API.
+
+**Trial-confirmed working endpoints:**
+- `/property/expandedprofile` — primary call, covers identifier/address/assessment/sale/building/summary/location
+- `/avm/snapshot` — AVM with confidence interval (low/high/score)
+- `/saleshistory/detail` — full transaction history
+
+**Field coverage** (all `attom_`-prefixed):
+- IDs: `attom_id`, `attom_apn`, `attom_fips`, `attom_geoid`, `attom_geoidv4`
+- Census: `attom_census_tract`, `attom_census_blockgroup`
+- Distress flags: `attom_reo_flag`, `attom_absentee_owner`, `attom_quitclaim_flag`
+- Valuation: `attom_avm`, `attom_avm_low`, `attom_avm_high`, `attom_avm_confidence`, `attom_market_value`
+- Tax: `attom_assessed_total`, `attom_assessed_land`, `attom_assessed_imprv`, `attom_tax_amt`, `attom_tax_year`
+- Building: `attom_sqft`, `attom_beds`, `attom_baths`, `attom_year_built`, `attom_condition`, `attom_construction_type`
+- Lot: `attom_lot_size_sqft`, `attom_lot_size_acres`, `attom_zoning`
+- Owner: `attom_owner_names`, `attom_owner_corporate`
+- Mortgage: `attom_mortgage_amount`, `attom_mortgage_lender`, `attom_mortgage_date`, `attom_mortgage_term`
+- Sale: `attom_last_sale_date`, `attom_last_sale_price`, `attom_last_sale_seller`, `attom_sale_history[]`
+
+**Wiring in `orchestrator.fetch_property()`:**
+- New flag `enrich_attom=False` (opt-in to preserve trial quota; ~2 API calls per property)
+- Default OFF — explicit pass `enrich_attom=True` to use it
+- Errors surface in `_attom_error` without breaking the fetch
+
+**Validated end-to-end (Apr 27, 2026):**
+- Test Denver address pulled `attom_avm=$697,734` (confidence 84, range $586k-$809k), `attom_reo_flag=True`, `attom_quitclaim_flag=True`, `attom_mortgage_amount=$510,000`, full last-sale + owner names + 2bd/1ba/1147sqft building details — all in one enricher call.
+
+**Endpoints not on trial:** `/school/search` and `/salestrend/snapshot` returned 404. Skipped from the enricher; can be added if upgrading from trial.
+
+### Config additions
+- `ATTOM_API_KEY` env var (required), `ATTOM_BASE` constant
+- `RATE_LIMITS["attom"]` set conservatively (60/min, 0.3s delay)
+- `SOCRATA_APP_TOKEN` constant added for completeness (was env-only)
+
 ## [3.0.0] — 2026-04-27
 
 ### Three new direct-API fetchers + schema-driven AI extraction

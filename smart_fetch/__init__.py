@@ -2,5 +2,5 @@
 
 from smart_fetch.orchestrator import fetch_property, fetch_market, validate_property
 
-__version__ = "3.0.0"
+__version__ = "3.1.0"
 __all__ = ["fetch_property", "fetch_market", "validate_property"]

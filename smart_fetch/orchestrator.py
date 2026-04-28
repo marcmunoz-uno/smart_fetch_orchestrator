@@ -274,7 +274,8 @@ def fetch_url(url: str, **kwargs) -> dict:
 
 def fetch_property(url: str = None, address: str = None, city: str = None,
                    state: str = None, zipcode: str = None,
-                   enrich: bool = True, validate: bool = True, **kwargs) -> dict:
+                   enrich: bool = True, validate: bool = True,
+                   enrich_attom: bool = False, **kwargs) -> dict:
     """
     Fetch and optionally enrich+validate a single property.
 
@@ -344,6 +345,16 @@ def fetch_property(url: str = None, address: str = None, city: str = None,
                 prop = bd_enrich(prop)
             except Exception as e:
                 prop["_bd_error"] = str(e)
+
+        # ATTOM enrichment — opt-in (trial quota concerns; ~2 API calls per property)
+        # Provides REO/absentee flags, AVM with confidence interval, mortgage history,
+        # parcel ID, FIPS, census tract — strongest single distress signal source.
+        if enrich_attom:
+            try:
+                from smart_fetch.enrichers.attom_enricher import enrich as attom_enrich
+                prop = attom_enrich(prop, include_avm=True)
+            except Exception as e:
+                prop["_attom_error"] = str(e)
 
     # Validate
     if validate:

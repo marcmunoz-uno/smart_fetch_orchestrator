@@ -63,6 +63,13 @@ FIRECRAWL_BASE = "https://api.firecrawl.dev/v1"
 BROWSERBASE_API_KEY = os.environ.get("BROWSERBASE_API_KEY", "")
 BROWSERBASE_PROJECT_ID = os.environ.get("BROWSERBASE_PROJECT_ID", "")
 
+# ATTOM Property Data
+ATTOM_API_KEY = os.environ.get("ATTOM_API_KEY", "")
+ATTOM_BASE = "https://api.gateway.attomdata.com/propertyapi/v1.0.0"
+
+# Socrata (optional app token; works without)
+SOCRATA_APP_TOKEN = os.environ.get("SOCRATA_APP_TOKEN", "")
+
 # Rate limiting
 RATE_LIMITS = {
     "brightdata_zillow": {"delay_s": 2.0, "max_per_min": 25},
@@ -73,4 +80,5 @@ RATE_LIMITS = {
     "playwright": {"delay_s": 2.0, "max_per_min": 15},
     "firecrawl": {"delay_s": 1.0, "max_per_min": 30},
     "browserbase": {"delay_s": 3.0, "max_per_min": 10},
+    "attom": {"delay_s": 0.3, "max_per_min": 60},  # trial tier conservatively
 }
