@@ -1,0 +1,3083 @@
+[
+  {
+    "market": "Akron OH",
+    "county": "Summit",
+    "state": "OH",
+    "deal": "probate",
+    "had_broken_url": "https://www.summitcountyprobatecourt.org/",
+    "query": "Summit County OH probate court estate case search",
+    "search_error": null,
+    "candidates": [
+      {
+        "url": "https://summitohioprobate.com/",
+        "title": "Summit County Probate Court",
+        "description": "No information is available for this page. \u00b7 Learn why",
+        "score": 75,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://clerkweb.summitoh.net/",
+        "title": "Summit County Clerk of Courts",
+        "description": "We are open Monday through Friday from 7:30AM to 4:00PM. Our online e-filing portal is available 24/7. Public Records Search \u00b7 scales icon. Civil.",
+        "score": 0,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://www.downtownakron.com/go/probate-court",
+        "title": "Summit County Probate Court | Akron, OH",
+        "description": "Summit County Probate Court ; Address. 209 S High St Akron, OH 44308 (330) 643-2350. visit website \u00b7 View on Google Maps ; Hours. Monday - Friday, 8 am - 4 pm",
+        "score": 0,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      }
+    ]
+  },
+  {
+    "market": "Atlanta GA",
+    "county": "Fulton",
+    "state": "GA",
+    "deal": "foreclosure",
+    "had_broken_url": "https://www.gsccca.org/search/uniform-commercial-code",
+    "query": "Fulton County GA sheriff sale foreclosure auction public records",
+    "search_error": null,
+    "candidates": [
+      {
+        "url": "https://fultoncountyga.gov/inside-fulton-county/fulton-county-departments/sheriff/tax-sales",
+        "title": "Tax Sales - Fulton County Government",
+        "description": "Fulton County Sheriff's Tax Sales are held on the first Tuesday of each month, between the hours of 10 a.m. and 4 p.m. (except when the first Tuesday of the ...",
+        "score": 100,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://consumer.georgia.gov/consumer-topics/mortgage-foreclosures",
+        "title": "Mortgage Foreclosures | Georgia Attorney General's Consumer ...",
+        "description": "These auctions take place the first Tuesday of every month (or the first Wednesday if the first Tuesday falls on a holiday) between 10 a.m. and 4 p.m. on the ...",
+        "score": 100,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://foreclosurebidslist.com/foreclosures/ga/fulton",
+        "title": "FULTON County, GA - Georgia Foreclosure Bids List",
+        "description": "Fulton county real estate foreclosure list & bids. Top attorneys: McCalla, McCurdy, Pendergast, Rubin, Morris, Aldridge Connors, JFLegal, Swertfeger, ...",
+        "score": 0,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      }
+    ]
+  },
+  {
+    "market": "Atlanta GA",
+    "county": "Fulton",
+    "state": "GA",
+    "deal": "land_bank",
+    "had_broken_url": "https://www.atlantaga.gov/government/departments/invest-atlanta/resources-programs/land-bank-authority",
+    "query": "Fulton County GA land bank available properties for sale",
+    "search_error": null,
+    "candidates": [
+      {
+        "url": "https://www.fultoncountyga.gov/inside-fulton-county/fulton-county-departments/real-estate-and-asset-management/land-division/surplus-real-estate-for-sale",
+        "title": "Surplus Real Estate for Sale - Fulton County Government",
+        "description": "Surplus properties include both improved parcels and vacant land. The following web pages are designed to list properties that are scheduled for a public sale.",
+        "score": 100,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://metroatlantalandbank.org/",
+        "title": "Metro Atlanta Land Bank - Affordable Housing. Vibrant Communities ...",
+        "description": "Metro Atlanta Land Bank conveys properties for rehabilitation, construction, and purchase that deliver affordable housing opportunities. Our Properties Contact ...",
+        "score": 75,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://metroatlantalandbank.org/fee-simple-vacant-lots/",
+        "title": "Fee Simple Vacant Lots - Metro Atlanta Land Bank",
+        "description": "Simple Vacant Lots Available For Purchase \u00b7 2912 Darrah Dr. \u00b7 2197 Lang Dr. \u00b7 315 Kimberley Ct. \u00b7 0 Stone Rd. \u00b7 0 W Anthony St. \u00b7 312 Kimberley Ct. \u00b7 0 Sahara Dr. \u00b7 0 ...",
+        "score": 75,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      }
+    ]
+  },
+  {
+    "market": "Atlanta GA",
+    "county": "Fulton",
+    "state": "GA",
+    "deal": "probate",
+    "had_broken_url": "https://fultoncountyga.gov/courts/probate-court",
+    "query": "Fulton County GA probate court estate case search",
+    "search_error": null,
+    "candidates": [
+      {
+        "url": "https://fultoncountycourt.us/probate-records",
+        "title": "Fulton County Probate Court Records",
+        "description": "Access Fulton county probate court records online. Search probate case information quickly, securely, and in one convenient place.",
+        "score": 40,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://www.fultonprobatega.org/",
+        "title": "Fulton County Probate Court, GA | Official Website",
+        "description": "Search. Decedents' Estates \u00b7 Weapons Carry Licenses ... The Judge of the Probate Court makes determinations in all controversies involving estates ...",
+        "score": 0,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://georgiaprobaterecords.com/",
+        "title": "Georgia Probate Records",
+        "description": "Search Estate Information. Estates. Search Recorded Marriage Licenses ... View Probate Court Information. Participating Courts.",
+        "score": 0,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      }
+    ]
+  },
+  {
+    "market": "Baton Rouge LA",
+    "county": "East Baton Rouge Parish",
+    "state": "LA",
+    "deal": "land_bank",
+    "had_broken_url": null,
+    "query": "East Baton Rouge Parish County LA land bank available properties for sale",
+    "search_error": null,
+    "candidates": [
+      {
+        "url": "https://louisianalandbank.com/land-for-sale/",
+        "title": "Land For Sale - Louisiana Land Bank",
+        "description": "East Baton Rouge, East Carroll, East Feliciana, Evangeline, Franklin, Grant, Iberia, Iberville, Jackson, Jefferson, Jefferson Davis, La Salle, Lafayette ...",
+        "score": 75,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://www.buildbatonrouge.org/land-bank-properties",
+        "title": "Land Bank Properties - Build Baton Rouge",
+        "description": "Use the map below to explore available land and redevelopment opportunities. Zoom in or out to explore different neighborhoods across East Baton Rouge Parish.",
+        "score": 0,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://www.land.com/East-Baton-Rouge-Parish-LA/all-land/50000-99999/",
+        "title": "Property for sale in East Baton Rouge Parish, Louisiana - Land.com",
+        "description": "Find East Baton Rouge Parish, Louisiana properties for sale on Land.com. Browse lots and acreage by price, size, amenities, and more.",
+        "score": 0,
+        "status": 403,
+        "final_url": null,
+        "alive": false
+      }
+    ]
+  },
+  {
+    "market": "Baton Rouge LA",
+    "county": "East Baton Rouge Parish",
+    "state": "LA",
+    "deal": "lis_pendens",
+    "had_broken_url": null,
+    "query": "East Baton Rouge Parish County LA lis pendens recorder deed search",
+    "search_error": null,
+    "candidates": [
+      {
+        "url": "https://city.brla.gov/gis/propertylookup.asp",
+        "title": "Property Lookup - BRLA.gov",
+        "description": "Searches can be executed for all properties within East Baton Rouge Parish including those in the cities of Baker, Baton Rouge, Central, and Zachary, as ...",
+        "score": 100,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://eastbatonrougeparishrecords.us/property-records",
+        "title": "East Baton Rouge County Property Records",
+        "description": "Explore East Baton Rouge County property records in 2026, including how to search online, free access options, and what's included in property records.",
+        "score": 40,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://www.ebrclerk.com/",
+        "title": "EBR Clerk of Court",
+        "description": "Records Search. Overview / Fees \u00b7 Civil Records \u00b7 Criminal Records \u00b7 Property Records \u00b7 1963 - 1985 Map Index \u00b7 Court Date Search \u00b7 eClerks LA Statewide Portal.",
+        "score": 0,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      }
+    ]
+  },
+  {
+    "market": "Baton Rouge LA",
+    "county": "East Baton Rouge Parish",
+    "state": "LA",
+    "deal": "probate",
+    "had_broken_url": null,
+    "query": "East Baton Rouge Parish County LA probate court estate case search",
+    "search_error": null,
+    "candidates": [
+      {
+        "url": "https://eastbatonrougeparishrecords.us/court-records",
+        "title": "East Baton Rouge County, Louisiana Court Records",
+        "description": "Louisiana Supreme Court Case Search. Access through lasc.org; Navigate to \"Docket Search\"; Search appellate cases from East Baton Rouge Parish; View case status ...",
+        "score": 40,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://www.ebrclerk.com/",
+        "title": "EBR Clerk of Court",
+        "description": "La. R.S. 44:33.1 requires the East Baton Rouge Parish Clerk of Court's Office to publicize the name and contact information of its custodian of public records, ...",
+        "score": 0,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://clerkconnect.com/",
+        "title": "Clerk Connect - a Multi-Parish Clerk of Court online access portal",
+        "description": "This portal provides subscriptions for search and printing capability for Clerks of Court from many offices across the state of Louisiana District Court ...",
+        "score": 0,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      }
+    ]
+  },
+  {
+    "market": "Birmingham AL",
+    "county": "Jefferson",
+    "state": "AL",
+    "deal": "foreclosure",
+    "had_broken_url": null,
+    "query": "Jefferson County AL sheriff sale foreclosure auction public records",
+    "search_error": null,
+    "candidates": [
+      {
+        "url": "https://www.revenue.alabama.gov/collections/sheriffs-sale-delinquent-property/",
+        "title": "Sheriff's Sale of Delinquent Property - Alabama Department of ...",
+        "description": "Public Records Request. To report a criminal tax violation, please call 251-344-4737. Contact. 375 South Ripley Street Montgomery, AL 36104 \u00b7 Contact Us \u00b7 THE ...",
+        "score": 100,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://jeffcosheriffal.com/",
+        "title": "Jefferson County Sheriff's Office: Home",
+        "description": "Meet the Sheriff, Community Assisted Monitoring, Pistol Permit, Sex Offenders, Jefferson County Alabama Sheriff Department - Inmate Search",
+        "score": 75,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://eringcapture.jccal.org/",
+        "title": "Citizen Access Portal - Jefferson County",
+        "description": "Searches. Real Property Search \u00b7 Business Personal Property Search \u00b7 Case Status Search \u00b7 Delinquent Search \u00b7 Redemption Search \u00b7 Insolvent Search ...",
+        "score": 0,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      }
+    ]
+  },
+  {
+    "market": "Birmingham AL",
+    "county": "Jefferson",
+    "state": "AL",
+    "deal": "lis_pendens",
+    "had_broken_url": null,
+    "query": "Jefferson County AL lis pendens recorder deed search",
+    "search_error": null,
+    "candidates": [
+      {
+        "url": "https://www.sos.alabama.gov/government-records/land-records",
+        "title": "Land Records | Alabama Secretary of State",
+        "description": "This facility provides you easy access to public information maintained by the Secretary of State's office in electronic format.",
+        "score": 100,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://jeffcoprobatecourt.com/land-records/",
+        "title": "Land Records - Probate Court of Jefferson County, Alabama",
+        "description": "These documents include Warranty Deeds, Mortgages, Releases, Powers of Attorney, Liens, Plats, Amendments and other miscellaneous documents designated by state ...",
+        "score": 0,
+        "status": 403,
+        "final_url": null,
+        "alive": false
+      },
+      {
+        "url": "https://landmarkweb.jccal.org/landmarkweb",
+        "title": "Landmark Web Official Records Search",
+        "description": "Jefferson County Official Records Search. Home; Search; Contact; Settings; Support; Jefferson County \u00b7 Recording Activity Notification \u00b7 Fee Calculator.",
+        "score": 0,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      }
+    ]
+  },
+  {
+    "market": "Chicago IL",
+    "county": "Cook",
+    "state": "IL",
+    "deal": "foreclosure",
+    "had_broken_url": null,
+    "query": "Cook County IL sheriff sale foreclosure auction public records",
+    "search_error": null,
+    "candidates": [
+      {
+        "url": "https://cookcountysheriffil.gov/departments/courts/civil-services/foreclosure-property-sale/",
+        "title": "Foreclosure Property Sale | Cook County Sheriff's Office",
+        "description": "The sheriff sales are held Monday through Friday \u2013 excluding holidays \u2013 at 1 pm at the Daley Center, Lower Level Room 06, 50 W. Washington, Chicago, IL 60602.",
+        "score": 175,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://www.cookcountycourtil.gov/case-type/foreclosure",
+        "title": "Foreclosure - Circuit Court of Cook County",
+        "description": "A judge in the Circuit Court of Cook County oversees the foreclosure process, which typically involves the lender filing a lawsuit against the homeowner for ...",
+        "score": 100,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://foreclosure.ccsheriff.org/",
+        "title": "Cook County Sheriff: Index",
+        "description": "Upcoming Real Estate Auctions. Case Number, Internal Sheriff File Number, Property Address, Opening Bid, Plaintiff Attorney, Date Sale Set, Case Status ...",
+        "score": 75,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      }
+    ]
+  },
+  {
+    "market": "Chicago IL",
+    "county": "Cook",
+    "state": "IL",
+    "deal": "probate",
+    "had_broken_url": null,
+    "query": "Cook County IL probate court estate case search",
+    "search_error": null,
+    "candidates": [
+      {
+        "url": "https://www.cookcountyil.gov/service/court-records-and-archives",
+        "title": "Court Records and Archives - Cook County",
+        "description": "Probate Docket - cases files in Probate Court related to claims against estates and guardianships; Proabate Will - related to Wills filed with the County of ...",
+        "score": 100,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://www.cookcountycourtil.gov/division/probate-division",
+        "title": "Probate Division | Circuit Court of Cook County",
+        "description": "Search for Orders of the Circuit Court ... For inquiries regarding the Probate Division, including the filing of new cases or checking the status of a pending ...",
+        "score": 100,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://www.cookcountyclerkofcourt.org/online-case-information",
+        "title": "On-line Case Information | Clerk of the Circuit Court of Cook County",
+        "description": "The case data available on-line is the electronic docket which contains brief summaries of court documents and court events in a particular case. The electronic ...",
+        "score": 0,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      }
+    ]
+  },
+  {
+    "market": "Cleveland OH",
+    "county": "Cuyahoga",
+    "state": "OH",
+    "deal": "foreclosure",
+    "had_broken_url": "https://cp.cuyahogacounty.us/en-US/Foreclosure-Filings.aspx",
+    "query": "Cuyahoga County OH sheriff sale foreclosure auction public records",
+    "search_error": null,
+    "candidates": [
+      {
+        "url": "https://cuyahoga.sheriffsaleauction.ohio.gov/",
+        "title": "Cuyahoga County Sheriff Sale Auction - Ohio.gov",
+        "description": "No information is available for this page.",
+        "score": 175,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://cpdocket.cp.cuyahogacounty.gov/sheriffsearch/search.aspx",
+        "title": "Foreclosure Search",
+        "description": "To view a list of the properties, please visit https://cuyahoga.sheriffsaleauction.ohio.gov/. Be informed that the legal notices of foreclosure and tax ...",
+        "score": 100,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://cuyahogacounty.gov/sheriff/civil/foreclosure-sales",
+        "title": "Foreclosure Sales",
+        "description": "All Cuyahoga County Sheriff Foreclosure Sales are held online only. The Civil Administrative Unit will accept payments from 8:00am through 3:30pm, closed ...",
+        "score": 100,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      }
+    ]
+  },
+  {
+    "market": "Cleveland OH",
+    "county": "Cuyahoga",
+    "state": "OH",
+    "deal": "land_bank",
+    "had_broken_url": "https://cuyahogalandbank.org/available-properties/",
+    "query": "Cuyahoga County OH land bank available properties for sale",
+    "search_error": null,
+    "candidates": [
+      {
+        "url": "https://www.clevelandohio.gov/city-hall/departments/community-development/programs-services/cleveland-land-bank",
+        "title": "Cleveland Land Bank",
+        "description": "The City of Cleveland is Improving the Land Bank Application Process. The City of Cleveland's Land Bank is temporarily pausing new applications while we ...",
+        "score": 100,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://cuyahogalandbank.org/all-available-properties/",
+        "title": "All Available Cuyahoga Land Bank Properties",
+        "description": "3319 E 142nd St Cleveland, OH 44120. Neighborhood: Mount Pleasant. Status: Vacant Land - Available. 129-27-037. 11917 Soika Ave Cleveland, OH 44120.",
+        "score": 75,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://cuyahogalandbank.org/land-bank-homes/",
+        "title": "Land Bank Homes",
+        "description": "Land Bank Homes is the development and renovation branch of Cuyahoga Land Bank. In communities across Cuyahoga County, we build high-quality, market-price ...",
+        "score": 75,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      }
+    ]
+  },
+  {
+    "market": "Columbus OH",
+    "county": "Franklin",
+    "state": "OH",
+    "deal": "land_bank",
+    "had_broken_url": "https://www.columbuslandbank.com/",
+    "query": "Franklin County OH land bank available properties for sale",
+    "search_error": null,
+    "candidates": [
+      {
+        "url": "https://treasurer.franklincountyohio.gov/Foreclosures-Land-Bank/Land-Bank-Program",
+        "title": "Land Bank Program - Franklin County Treasurer",
+        "description": "COCIC serves as Franklin County's Land Bank agency and is primarily funded from penalties and interest paid by delinquent taxpayers.",
+        "score": 100,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://www.columbus.gov/Business-Development/Building-Zoning-Services/Real-Estate-and-Land-Redevelopment",
+        "title": "Division of Real Estate and Land Redevelopment - Columbus.gov",
+        "description": "The Land Bank was established to improve neighborhoods by returning vacant & underutilized residential & commercial properties into productive assets.",
+        "score": 100,
+        "status": 403,
+        "final_url": null,
+        "alive": false
+      },
+      {
+        "url": "https://public-cbus.epropertyplus.com/landmgmtpub/app/base/propertySearch?searchInfo=%7B%22criteria%22%3A%7B%22criterias%22%3A%5B%5D%7D%7D",
+        "title": "The Land Bank Center-Columbus and Franklin County Land Banks",
+        "description": "Properties by classification: Agricultural, Improved Agricultural Vacant, Commercial, Improved Commercial Vacant, Industrial, Improved Industrial Vacant.",
+        "score": 0,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      }
+    ]
+  },
+  {
+    "market": "Dallas TX",
+    "county": "Dallas",
+    "state": "TX",
+    "deal": "foreclosure",
+    "had_broken_url": "https://www.dallascounty.org/departments/tax/sheriff-sales.php",
+    "query": "Dallas County TX sheriff sale foreclosure auction public records",
+    "search_error": null,
+    "candidates": [
+      {
+        "url": "https://dallas.texas.sheriffsaleauctions.com/",
+        "title": "https://dallas.texas.sheriffsaleauctions.com/",
+        "description": "No information is available for this page. \u00b7 Learn why",
+        "score": 75,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://www.dallascounty.org/government/county-clerk/recording/foreclosures.php",
+        "title": "Recording Division - Find Foreclosure Notices - Dallas County",
+        "description": "Each Notice of Sale posted on the County Clerk's web site is searchable by name or physical address. * The Notice of Sales are separated by the city and month ...",
+        "score": 0,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://www.dallascounty.org/departments/tax/sheriff-sales.php",
+        "title": "Tax Office | Sheriff Sales - Dallas County",
+        "description": "Sheriff's Sales will be conducted monthly via an online auction. For more information and registration please call (877) 361-7325 or email: customerservice@ ...",
+        "score": 0,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      }
+    ]
+  },
+  {
+    "market": "Dallas TX",
+    "county": "Dallas",
+    "state": "TX",
+    "deal": "land_bank",
+    "had_broken_url": null,
+    "query": "Dallas County TX land bank available properties for sale",
+    "search_error": null,
+    "candidates": [
+      {
+        "url": "https://dallaslandbank.com/",
+        "title": "Dallas Housing Acquisition and Development Corporation",
+        "description": "Explore affordable properties through the Dallas Land Bank for community development and revitalization efforts.",
+        "score": 75,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://dallascityhall.com/departments/housing-neighborhood-revitalization/Pages/Land-available-for-purchase.aspx",
+        "title": "Housing & Homelessness Land available for purchase",
+        "description": "\u200bLand available ... properties and the sale of surplus properties. Contact. Housing & Homelessness. Tel: 214-670-3644. 1500 Marilla St. 6CN Dallas, Texas 75201 ...",
+        "score": 0,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://www.dallascounty.org/departments/pubworks/property-division.php",
+        "title": "Public Works | Property Division Tax Foreclosure Resales",
+        "description": "Dallas County will periodically announce the sale of these properties by sealed bid on this site and in the Daily Commercial Record as they become available.",
+        "score": 0,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      }
+    ]
+  },
+  {
+    "market": "Dallas TX",
+    "county": "Dallas",
+    "state": "TX",
+    "deal": "lis_pendens",
+    "had_broken_url": null,
+    "query": "Dallas County TX lis pendens recorder deed search",
+    "search_error": null,
+    "candidates": [
+      {
+        "url": "https://dallas.tx.publicsearch.us/",
+        "title": "Official Record Search - Quick Search - Dallas County, Texas ...",
+        "description": "Search the contents of every document and not just the information that is indexed. If you enter two or more words, we'll search for them as a phrase. Search ...",
+        "score": 40,
+        "status": 0,
+        "final_url": null,
+        "alive": false,
+        "error": "HTTPSConnectionPool(host='dallas.tx.publicsearch.us', port=443): Max retries exceeded with url: / (Caused by SSLError(SS"
+      },
+      {
+        "url": "https://www.dallascounty.org/government/county-clerk/recording/",
+        "title": "Recording Division - Dallas County Clerk",
+        "description": "The County Clerk as Recorder of Deeds/Official Public Records: Texas ... Record Search; the Online Public Record Search documents are non-certified.",
+        "score": 0,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://www.dallascounty.org/services/record-search/",
+        "title": "Online Record Search - Dallas County",
+        "description": "Dallas County and District Court Case Information and Documents. Registration to this site is not required for public access.",
+        "score": 0,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      }
+    ]
+  },
+  {
+    "market": "Dayton OH",
+    "county": "Montgomery",
+    "state": "OH",
+    "deal": "probate",
+    "had_broken_url": "https://www.mcohio.org/government/elected_officials/probate_court/index.php",
+    "query": "Montgomery County OH probate court estate case search",
+    "search_error": null,
+    "candidates": [
+      {
+        "url": "https://www.montgomeryprobatecourtal.gov/resources/probate-records-search",
+        "title": "Probate Records Search",
+        "description": "Montgomery County Probate Court \u00b7 Probate Records Search.",
+        "score": 100,
+        "status": 403,
+        "final_url": null,
+        "alive": false
+      },
+      {
+        "url": "https://go.mcohio.org/applications/probate/prodcfm/casesearchall.cfm",
+        "title": "PROBATE DIVISION - Montgomery County, Ohio",
+        "description": "Montgomery County Home Probate Home Attorney's Cases Case Name Civil & Miscellaneous Estate Guardianship Marriage License Mental Health Trusts ... NAME SEARCH.",
+        "score": 0,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://go.mcohio.org/applications/probate/prodcfm/casesearchx.cfm",
+        "title": "PROBATE DIVISION - Montgomery County, Ohio",
+        "description": "ESTATE TYPE SEARCH. Case Year: Case Number: [To pull up a case using the case year and case number, take a look at the following example: case number ...",
+        "score": 0,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      }
+    ]
+  },
+  {
+    "market": "Detroit MI",
+    "county": "Wayne",
+    "state": "MI",
+    "deal": "foreclosure",
+    "had_broken_url": "https://www.waynecounty.com/elected/treasurer/tax-foreclosure-auctions.aspx",
+    "query": "Wayne County MI sheriff sale foreclosure auction public records",
+    "search_error": null,
+    "candidates": [
+      {
+        "url": "https://www.waynecountymi.gov/Government/Elected-Officials/Treasurer/Auctions-Claims",
+        "title": "Auctions & Claims - Wayne County, Michigan",
+        "description": "The Wayne County Treasurer's Office will hold auctions of foreclosed properties and vacant lots in September and October 2025.",
+        "score": 100,
+        "status": 403,
+        "final_url": null,
+        "alive": false
+      },
+      {
+        "url": "https://www.waynecountymi.gov/Government/Elected-Officials/Register-of-Deeds/Sheriffs-Deed-Redemptions",
+        "title": "Sheriff's Deed Redemptions",
+        "description": "After foreclosure, the mortgagor of property sold during an auction conducted by the Wayne County Sheriff can redeem the property by paying the Purchaser of ...",
+        "score": 100,
+        "status": 403,
+        "final_url": null,
+        "alive": false
+      },
+      {
+        "url": "https://www.sheriffconnect.com/court-services/",
+        "title": "Court Services | Sheriff Connect \u2013 Wayne County Michigan",
+        "description": "Please contact the Wayne County Treasurer's Office to discuss Tax Foreclosure matters and auctions. Bidding Rules. Click on the sale type to download",
+        "score": 75,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      }
+    ]
+  },
+  {
+    "market": "Detroit MI",
+    "county": "Wayne",
+    "state": "MI",
+    "deal": "land_bank",
+    "had_broken_url": "https://buildingdetroit.org/available-properties",
+    "query": "Wayne County MI land bank available properties for sale",
+    "search_error": null,
+    "candidates": [
+      {
+        "url": "https://waynecountylandbank.com/",
+        "title": "Wayne County Land Bank | Properties Throughout Wayne County",
+        "description": "Currently, the Land Bank owns and manages over 1,000 tax-foreclosed public properties. Please note, we do not provide a list of properties in our inventory, you ...",
+        "score": 75,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://public-wclb.epropertyplus.com/",
+        "title": "Wayne County Land Bank",
+        "description": "The WCLB endeavors to sell inventory properties to eligible buyers who will improve their condition and appearance. 65 TUXEDO. $4,000.00. View details. 13118 ...",
+        "score": 0,
+        "status": 200,
+        "final_url": "https://public-wclb.epropertyplus.com/landmgmtpub/",
+        "alive": true
+      },
+      {
+        "url": "https://public-wclb.epropertyplus.com/landmgmtpub/app/base/propertySearch",
+        "title": "Wayne County Land Bank",
+        "description": "All Properties By Classification; All Properties By Inventory Type; Wayne Municipalities. Wayne County Land Bank 500 Griswold, Suite 2800, Detroit MI 48226",
+        "score": 0,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      }
+    ]
+  },
+  {
+    "market": "Detroit MI",
+    "county": "Wayne",
+    "state": "MI",
+    "deal": "lis_pendens",
+    "had_broken_url": null,
+    "query": "Wayne County MI lis pendens recorder deed search",
+    "search_error": null,
+    "candidates": [
+      {
+        "url": "https://www.waynecountymi.gov/Government/Elected-Officials/Register-of-Deeds",
+        "title": "Register of Deeds - Wayne County, Michigan",
+        "description": "The mission of the Office of Register of Deeds is to provide an easily accessible, accurate and timely archival database of the county land records.",
+        "score": 100,
+        "status": 403,
+        "final_url": null,
+        "alive": false
+      },
+      {
+        "url": "https://www.waynecountymi.gov/Government/Elected-Officials/Register-of-Deeds/Search-Services-and-Copy-Requests",
+        "title": "Search Services and Copy Requests - Wayne County, Michigan",
+        "description": "You can visit our website, waynecountylandrecords.com, 24 hours a day, seven days a week to search for - and print out - copies of recorded documents dating ...",
+        "score": 100,
+        "status": 403,
+        "final_url": null,
+        "alive": false
+      },
+      {
+        "url": "https://www.waynecountymi.gov/Government/Elected-Officials/Register-of-Deeds/Document-Recording",
+        "title": "Document Recording - Wayne County, Michigan",
+        "description": "Document Recording. The Office of Wayne County Register of Deeds records various types of documents, mostly relating to interests and transfers of property.",
+        "score": 100,
+        "status": 403,
+        "final_url": null,
+        "alive": false
+      }
+    ]
+  },
+  {
+    "market": "Detroit MI",
+    "county": "Wayne",
+    "state": "MI",
+    "deal": "probate",
+    "had_broken_url": "https://www.3rdcc.org/divisions/probate",
+    "query": "Wayne County MI probate court estate case search",
+    "search_error": null,
+    "candidates": [
+      {
+        "url": "https://www.courts.michigan.gov/search/?searchQuery=probate%20wayne",
+        "title": "Search - Michigan Courts",
+        "description": "Looking for case Information? Visit Michigan Courts case search to view court documents, case information, orders, and opinions.",
+        "score": 100,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://www.waynecountymi.gov/Services/Records",
+        "title": "Records - Wayne County, Michigan",
+        "description": "Search for records online by name, or to view dockets. Online Search Available Records Order Record Copies in Person",
+        "score": 100,
+        "status": 403,
+        "final_url": null,
+        "alive": false
+      },
+      {
+        "url": "https://www.wcpc.us/",
+        "title": "Wayne County Probate Court",
+        "description": "This form should be used by guardians in adult guardianship cases (GA and GL case types). Upon appointment of a guardian in these cases, the guardian must file ...",
+        "score": 40,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      }
+    ]
+  },
+  {
+    "market": "Houston TX",
+    "county": "Harris",
+    "state": "TX",
+    "deal": "land_bank",
+    "had_broken_url": null,
+    "query": "Harris County TX land bank available properties for sale",
+    "search_error": null,
+    "candidates": [
+      {
+        "url": "https://houstonlandbank.org/homes/",
+        "title": "Houston Land Bank Homes",
+        "description": "Our current listings of beautiful and fairly priced homes. Start your journey to home ownership with Houston Land Bank!",
+        "score": 75,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://houstonlandbank.org/property-inventory-and-historical-lot-home-sale/",
+        "title": "inventory - Houston Land Bank",
+        "description": "Homes \u00b7 News and Announcements \u00b7 Resources \u00b7 Contact. Property Inventory. P.O. Box 2549, Houston, Texas, 77252. 281.655.4600. info@houstonlandbank.org.",
+        "score": 75,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://www.hctax.net/Property/listings/taxsalelisting",
+        "title": "Harris County Tax Sales Lists",
+        "description": "Harris County Delinquent Tax Sale. Property Listing. Sale Date: May 05, 2026. The information provided on this website is updated daily from multiple ...",
+        "score": 0,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      }
+    ]
+  },
+  {
+    "market": "Indianapolis IN",
+    "county": "Marion",
+    "state": "IN",
+    "deal": "land_bank",
+    "had_broken_url": "https://www.indylandbank.org/properties/",
+    "query": "Marion County IN land bank available properties for sale",
+    "search_error": null,
+    "candidates": [
+      {
+        "url": "https://www.indy.gov/activity/vacant-to-vibrant",
+        "title": "Vacant to Vibrant - Indy.gov",
+        "description": "The Indianapolis Land Bank. Get Started. Ready to buy from our land bank? Click the green \"Get Started\" button to view our properties. Not quite ready? That's ...",
+        "score": 100,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://www.prosperityindiana.org/Land-Banks",
+        "title": "Land Banks - Prosperity Indiana",
+        "description": "Land banks are quasi-public entities that take temporary ownership of delinquent properties and, in a transparent and consistent manner, transfer them to ...",
+        "score": 0,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://www.zillow.com/marion-county-in/bank-owned/",
+        "title": "Marion County IN Bank Owned Homes & REO Properties For Sale",
+        "description": "Filter your house search to just find bank owned homes and REO properties in Marion County IN matching Bank Owned. Get a great deal that could be lower than ...",
+        "score": -50,
+        "status": 403,
+        "final_url": null,
+        "alive": false
+      }
+    ]
+  },
+  {
+    "market": "Indianapolis IN",
+    "county": "Marion",
+    "state": "IN",
+    "deal": "lis_pendens",
+    "had_broken_url": null,
+    "query": "Marion County IN lis pendens recorder deed search",
+    "search_error": null,
+    "candidates": [
+      {
+        "url": "https://www.indy.gov/agency/marion-county-recorders-office",
+        "title": "Marion County Recorder's Office - Indy.gov",
+        "description": "Search Real Estate Records Online. Find the search option that's best for you. Learn more \u00b7 Search Recorded Documents and Request Copies. Find records online or ...",
+        "score": 100,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://www.indy.gov/activity/search-recorded-documents-and-request-copies",
+        "title": "Search Recorded Documents and Request Copies - Indy.gov",
+        "description": "Use our online services to search recorded documents. Request a copy. To get a copy of a recorded document in person, visit the Recorder's Office.",
+        "score": 100,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://www.marioncountyclerk.org/departments/records-recording/official-records-recording/",
+        "title": "Official Records | Marion County Clerk of Court and Comptroller",
+        "description": "The Official Records department is located in the Clerk of Court Annex Building at 19 N Pine Avenue, Ocala, room 124. Office hours are Monday through Friday, 8 ...",
+        "score": 0,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      }
+    ]
+  },
+  {
+    "market": "Jackson MS",
+    "county": "Hinds",
+    "state": "MS",
+    "deal": "foreclosure",
+    "had_broken_url": null,
+    "query": "Hinds County MS sheriff sale foreclosure auction public records",
+    "search_error": null,
+    "candidates": [
+      {
+        "url": "https://www.sos.ms.gov/public-lands/tax-forfeited-lands",
+        "title": "Tax-Forfeited Lands - Mississippi Secretary of State",
+        "description": "Tax-Forfeited lands are held by the Public Lands Division for sale. \u00b7 For assistance or information, call 601-359-6393 or toll-free (in-state) at 1-866-TF-LANDS ...",
+        "score": 100,
+        "status": 403,
+        "final_url": null,
+        "alive": false
+      },
+      {
+        "url": "https://www.co.hinds.ms.us/pgs/newindex.asp",
+        "title": "Hinds County Online Databases line",
+        "description": "Hinds County MS, listing of available jobs, Election Results, Circuit Court Judge Calendar, Sheriff's Department information, general county government ...",
+        "score": 40,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://hindsrecords.us/property-records",
+        "title": "Hinds County, Mississippi Property Records | HindsRecords.us",
+        "description": "Explore Hinds County property records in 2026, including how to search online, free access options, and what's included in property records.",
+        "score": 40,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      }
+    ]
+  },
+  {
+    "market": "Jackson MS",
+    "county": "Hinds",
+    "state": "MS",
+    "deal": "land_bank",
+    "had_broken_url": "https://jacksonms.gov/land-bank/",
+    "query": "Hinds County MS land bank available properties for sale",
+    "search_error": null,
+    "candidates": [
+      {
+        "url": "https://www.hindscountyms.com/delinquent-property-tax-lists-and-tax-sale-lists",
+        "title": "Delinquent Property Tax Lists and Tax Sale LIsts - Hinds County",
+        "description": "Land Records, General Index, Mailing Addresses, Public Information, Announcements, Purchasing Real Property Fees, Chancellors' Vacation Schedule, Audited ...",
+        "score": 0,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://www.landwatch.com/mississippi-land-for-sale/hinds-county",
+        "title": "Hinds County, MS Land for Sale - Landwatch.com",
+        "description": "LandWatch has 274 land listings for sale in Hinds County, MS. Browse our Hinds County, MS land for sale listings, view photos and ...",
+        "score": 0,
+        "status": 403,
+        "final_url": null,
+        "alive": false
+      },
+      {
+        "url": "https://www.zillow.com/hinds-county-ms/land/",
+        "title": "Hinds County MS Land & Lots For Sale - 213 Listings | Zillow",
+        "description": "Hinds County MS Land ; $20,000. 6.77 acres lot \u00b7 0 Lester Stevens Sr Ln, Terry, MS 39170 ; $8,750. 2 acres lot \u00b7 Mary Edith St Lot 25, Jackson, MS 39204 ; $55,000. 3 ...",
+        "score": -50,
+        "status": 403,
+        "final_url": null,
+        "alive": false
+      }
+    ]
+  },
+  {
+    "market": "Jackson MS",
+    "county": "Hinds",
+    "state": "MS",
+    "deal": "lis_pendens",
+    "had_broken_url": null,
+    "query": "Hinds County MS lis pendens recorder deed search",
+    "search_error": null,
+    "candidates": [
+      {
+        "url": "https://hindsrecords.us/property-records",
+        "title": "Hinds County, Mississippi Property Records | HindsRecords.us",
+        "description": "Explore Hinds County property records in 2026, including how to search online, free access options, and what's included in property records.",
+        "score": 40,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://www.hindscountyms.com/elected-offices/chancery-clerk",
+        "title": "Chancery Clerk | Hinds County, Mississippi",
+        "description": "It is illegal for the Chancery Clerk's Office to search these records or prepare your deed. Before recording your deed it must contain the following:.",
+        "score": 0,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://www.hindscountyms.com/online-databases-0",
+        "title": "Online Databases | Hinds County, Mississippi",
+        "description": "Land Records, General Index, Mailing Addresses, Public Information, Announcements, Purchasing Real Property Fees, Chancellors' Vacation Schedule, Audited ...",
+        "score": 0,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      }
+    ]
+  },
+  {
+    "market": "Jackson MS",
+    "county": "Hinds",
+    "state": "MS",
+    "deal": "probate",
+    "had_broken_url": null,
+    "query": "Hinds County MS probate court estate case search",
+    "search_error": null,
+    "candidates": [
+      {
+        "url": "https://courts.ms.gov/mec/mec.php",
+        "title": "Mississippi Electronic Courts (MEC) - State of Mississippi Judiciary",
+        "description": "If you have any questions or issues, you may reach the MEC Helpdesk at: helpdesk@mec.ms.gov or 601-576-4650. Mississippi Electronic Courts seal. Click below to ...",
+        "score": 100,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://www.co.hinds.ms.us/pgs/newindex.asp",
+        "title": "Hinds County Online Databases line",
+        "description": "Subdivision Name Search \u00b7 Financial Statements. Circuit Clerk line. Circuit Court Civil Cases \u00b7 County Court Civil Cases \u00b7 Judgment Roll \u00b7 Voter Information - ...",
+        "score": 40,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://www.hindscountyms.com/elected-offices/chancery-clerk",
+        "title": "Chancery Clerk | Hinds County, Mississippi",
+        "description": "A search of records in the Chancery Clerk's Office will determine any outstanding mortgages, taxes or other liens and whether or not the seller has legal title ...",
+        "score": 0,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      }
+    ]
+  },
+  {
+    "market": "Jacksonville FL",
+    "county": "Duval",
+    "state": "FL",
+    "deal": "land_bank",
+    "had_broken_url": "https://www.coj.net/departments/planning-and-development/community-redevelopment-agency/jacksonville-land-bank",
+    "query": "Duval County FL land bank available properties for sale",
+    "search_error": null,
+    "candidates": [
+      {
+        "url": "https://www.floridarealestatecentral.com/duval-county/duval-county-vacant-land-lots/",
+        "title": "Duval County Vacant Land & Lots For Sale",
+        "description": "Look for Duval County, FL vacant land & lots like a real estate agent! Discover all of today's undeveloped property MLS listings in Duval County, Florida.",
+        "score": 0,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://www.duvalclerk.com/departments/civil-court-services/foreclosure",
+        "title": "Foreclosure - Duvalclerk.gov",
+        "description": "All foreclosure auctions are held online at the Duval County Real Auction Website. The sales are conducted Monday through Friday (except legal holidays), with ...",
+        "score": 0,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://www.zillow.com/duval-county-fl/bank-owned/",
+        "title": "Duval County FL Bank Owned Homes & REO Properties For Sale",
+        "description": "Filter your house search to just find bank owned homes and REO properties in Duval County FL matching Bank Owned. Get a great deal that could be lower than ...",
+        "score": -50,
+        "status": 403,
+        "final_url": null,
+        "alive": false
+      }
+    ]
+  },
+  {
+    "market": "Jacksonville FL",
+    "county": "Duval",
+    "state": "FL",
+    "deal": "probate",
+    "had_broken_url": null,
+    "query": "Duval County FL probate court estate case search",
+    "search_error": null,
+    "candidates": [
+      {
+        "url": "https://duvalcountycourt.us/probate-records",
+        "title": "Duval County Probate Court Records",
+        "description": "Anyone can search probate case listings through CORE using basic criteria like party name, case number, or filing date at no cost. The general public can view ...",
+        "score": 40,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://www.duvalclerk.com/online-option/court-records",
+        "title": "Court Records - Duvalclerk.gov",
+        "description": "Online access to Duval County court records is available through the Clerk's online records portal, known as CORE.",
+        "score": 0,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://www.duvalclerk.com/departments/civil-court-services/probate",
+        "title": "Probate - Duvalclerk.gov",
+        "description": "Duval County Clerk of Courts Attn: PROBATE DEPARTMENT 501 West Adams Street, Room 1260. Jacksonville, FL 32202. Phone (904) 255-1990. Footer. Duval County Clerk ...",
+        "score": 0,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      }
+    ]
+  },
+  {
+    "market": "Kansas City MO",
+    "county": "Jackson",
+    "state": "MO",
+    "deal": "foreclosure",
+    "had_broken_url": "https://www.jacksongov.org/302/Sheriff-Sales",
+    "query": "Jackson County MO sheriff sale foreclosure auction public records",
+    "search_error": null,
+    "candidates": [
+      {
+        "url": "https://www.jacksongov.org/Government/Departments/Recorder-of-Deeds/Searching-Public-Records",
+        "title": "Searching Public Records - Jackson County MO",
+        "description": "You may conduct an online search at https://aumentumweb.jacksongov.org/ or by visiting us in office and conducting your own search on our public access ...",
+        "score": 0,
+        "status": 403,
+        "final_url": null,
+        "alive": false
+      },
+      {
+        "url": "https://www.16thcircuit.org/dlt-sale",
+        "title": "DLT Sale - 16th Circuit Court of Jackson County, Missouri",
+        "description": "The Delinquent Land Tax sale is held every year in August to auction properties that were foreclosed on the previous year, due to owing back taxes for three or ...",
+        "score": 0,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://www.jacksoncountyso.com/sheriff-sales",
+        "title": "Jackson County Sheriff Sales",
+        "description": "View the list of foreclosed properties for sale by the Jackson County Sheriff's Office. Includes sale dates, property addresses, case numbers, and appraisal ...",
+        "score": 0,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      }
+    ]
+  },
+  {
+    "market": "Kansas City MO",
+    "county": "Jackson",
+    "state": "MO",
+    "deal": "land_bank",
+    "had_broken_url": "https://www.kcmo.gov/city-hall/departments/neighborhoods-housing-services/land-bank",
+    "query": "Jackson County MO land bank available properties for sale",
+    "search_error": null,
+    "candidates": [
+      {
+        "url": "https://www.kcmo.gov/city-hall/housing/landbank",
+        "title": "Land Bank | CITY OF KANSAS CITY | OFFICIAL WEBSITE",
+        "description": "A listing of available properties can be found on the ePropertyPlus public site. Type in an address or parcel number in the search bar or click on 'View All ...",
+        "score": 100,
+        "status": 403,
+        "final_url": null,
+        "alive": false
+      },
+      {
+        "url": "https://jacksoncountylandtrust.org/properties-available",
+        "title": "Properties Available - Jackson County Land Trust",
+        "description": "Land Trust updates its list of properties available for purchase monthly. The list of properties is ordered by parcel number. By clicking on the document ...",
+        "score": 0,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://www.jacksongov.org/Government/Departments/Collection/Delinquent-Land-Tax-Sale",
+        "title": "Delinquent Land Tax Sale - Jackson County MO",
+        "description": "The Jackson County Circuit Court Administrator generally conducts two delinquent tax sales each year, one at each of the Courthouses.",
+        "score": 0,
+        "status": 403,
+        "final_url": null,
+        "alive": false
+      }
+    ]
+  },
+  {
+    "market": "Kansas City MO",
+    "county": "Jackson",
+    "state": "MO",
+    "deal": "lis_pendens",
+    "had_broken_url": null,
+    "query": "Jackson County MO lis pendens recorder deed search",
+    "search_error": null,
+    "candidates": [
+      {
+        "url": "https://www.jacksongov.org/Government/Departments/Recorder-of-Deeds/Searching-Documents-Online",
+        "title": "Searching Documents Online - Jackson County MO",
+        "description": "You can search our online inventory consisting of recorded documents dating back to the early 1960's and plats dating back to 1826.",
+        "score": 0,
+        "status": 403,
+        "final_url": null,
+        "alive": false
+      },
+      {
+        "url": "https://www.jacksongov.org/Government/Departments/Recorder-of-Deeds",
+        "title": "Recorder of Deeds - Jackson County MO",
+        "description": "The purpose of the Jackson County Recorder of Deeds Office is to review and index submitted documents for placement into the Public Record.",
+        "score": 0,
+        "status": 403,
+        "final_url": null,
+        "alive": false
+      },
+      {
+        "url": "https://www.jacksongov.org/Government/Departments/Recorder-of-Deeds/Searching-Public-Records",
+        "title": "Searching Public Records - Jackson County MO",
+        "description": "You may conduct an online search at https://aumentumweb.jacksongov.org/ or by visiting us in office and conducting your own search on our public access ...",
+        "score": 0,
+        "status": 403,
+        "final_url": null,
+        "alive": false
+      }
+    ]
+  },
+  {
+    "market": "Kansas City MO",
+    "county": "Jackson",
+    "state": "MO",
+    "deal": "probate",
+    "had_broken_url": null,
+    "query": "Jackson County MO probate court estate case search",
+    "search_error": null,
+    "candidates": [
+      {
+        "url": "https://www.courts.mo.gov/",
+        "title": "Missouri Courts - MO.gov",
+        "description": "Missing: estate | Show results with:estate",
+        "score": 100,
+        "status": 0,
+        "final_url": null,
+        "alive": false,
+        "error": "HTTPSConnectionPool(host='www.courts.mo.gov', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1"
+      },
+      {
+        "url": "https://www.16thcircuit.org/probate-records",
+        "title": "Probate Records - 16th Circuit Court of Jackson County, Missouri",
+        "description": "You may search by Estate Number or Party Names. The following options are available to search the Probate Records: Estate Number Inquiry \u00b7 Party Name Inquiry.",
+        "score": 0,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://www.16thcircuit.org/probate",
+        "title": "Probate - 16th Circuit Court of Jackson County, Missouri",
+        "description": "The Probate Division has jurisdiction over the estates of deceased persons and incapacitated and disabled adults and minors.",
+        "score": 0,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      }
+    ]
+  },
+  {
+    "market": "Lansing MI",
+    "county": "Ingham",
+    "state": "MI",
+    "deal": "foreclosure",
+    "had_broken_url": null,
+    "query": "Ingham County MI sheriff sale foreclosure auction public records",
+    "search_error": null,
+    "candidates": [
+      {
+        "url": "https://sh.ingham.org/courts_and_sheriff/sheriffs_office/civil_division.php",
+        "title": "Civil Division - Ingham County Sheriffs Office",
+        "description": "Ingham County Sheriff's Foreclosure Sales \u2013 Public Information When and Where Sales Are Held Sheriff's foreclosure sales are normally held every Thursday.",
+        "score": 0,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://tr.ingham.org/departments_and_officials/treasurer/auctions.php",
+        "title": "Auctions - Ingham County - Treasurer's Office",
+        "description": "The Ingham County Treasurer holds two auctions every year to sell properties that have been foreclosed upon for unpaid property taxes.",
+        "score": 0,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://richardstewart.com/blog/Michigan-Sheriff-Sale-Public-Notice-Search---Save-Your-Equity-with-Richard-Stewart-Realtor",
+        "title": "Michigan County Foreclosures & Sheriff Sale Search - Richard Stewart",
+        "description": "This page provides a statewide searchable database of foreclosure public notices published in Michigan legal newspapers. Records are compiled ...",
+        "score": 0,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      }
+    ]
+  },
+  {
+    "market": "Lansing MI",
+    "county": "Ingham",
+    "state": "MI",
+    "deal": "land_bank",
+    "had_broken_url": "https://lansinglandbank.org/",
+    "query": "Ingham County MI land bank available properties for sale",
+    "search_error": null,
+    "candidates": [
+      {
+        "url": "https://inghamlandbank.org/properties",
+        "title": "Properties | Ingham County Land Bank",
+        "description": "The Land Bank has three categories of single family houses and condominiums for sale: Energy efficient, visitable new construction single family houses, ...",
+        "score": 75,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://inghamlandbank.org/properties/vacant-interest",
+        "title": "Vacant Land For Sale - Ingham County Land Bank",
+        "description": "Ingham County Land Bank owns over 500 vacant lots across Ingham County. Lot pricing varies and is dependent on several factors such as size and location.",
+        "score": 75,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://inghamlandbank.org/",
+        "title": "Ingham County Land Bank",
+        "description": "Commercial Properties For Sale \u00b7 Vacant Land For Sale \u00b7 Garden Program \u00b7 Rental Properties ... Michigan 48906 517.267.5221 email: info@inghamlandbank.org. Ingham ...",
+        "score": 75,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      }
+    ]
+  },
+  {
+    "market": "Lansing MI",
+    "county": "Ingham",
+    "state": "MI",
+    "deal": "lis_pendens",
+    "had_broken_url": null,
+    "query": "Ingham County MI lis pendens recorder deed search",
+    "search_error": null,
+    "candidates": [
+      {
+        "url": "https://www.michigan.gov/taxes/collections/register-of-deeds",
+        "title": "Register of Deeds List By Michigan County",
+        "description": "Each county in Michigan has a Register of Deeds. Find the your county's office contact information on this page ... Ingham County Register of Deeds County ...",
+        "score": 100,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://rd.ingham.org/departments_and_officials/register_of_deeds/records_on-line.php",
+        "title": "Records Online - Ingham County - Register of Deeds",
+        "description": "All records are available for public search in the vault by appointment only at the Ingham County Courthouse in Mason, MI.",
+        "score": 0,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://rd.ingham.org/departments_and_officials/register_of_deeds/",
+        "title": "Ingham County - Register of Deeds",
+        "description": "The Register of Deeds Office is open Monday - Friday, from 8:00 am to 5:00 pm. If you wish to search documents recorded prior to 1960, you will need to make an ...",
+        "score": 0,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      }
+    ]
+  },
+  {
+    "market": "Lansing MI",
+    "county": "Ingham",
+    "state": "MI",
+    "deal": "probate",
+    "had_broken_url": null,
+    "query": "Ingham County MI probate court estate case search",
+    "search_error": null,
+    "candidates": [
+      {
+        "url": "https://micourt.courts.michigan.gov/case-search/",
+        "title": "MiCOURT Case Search",
+        "description": "Depending on the type of court being searched, Civil, Traffic, Criminal, Domestic (Divorce/Family), and Probate cases may be available through this website.",
+        "score": 100,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://www.michprobate.com/ingham-probate-court-info-2",
+        "title": "Ingham Probate Court | Thav, Ryke and Langan | MI",
+        "description": "Ingham County Probate Court information, process, and what to expect. Thav, Ryke & Langan help Michigan clients navigate probate matters.",
+        "score": 75,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://pr.ingham.org/courts_and_sheriff/probate_court/",
+        "title": "Ingham County - Probate Court",
+        "description": "You are welcome to visit the Probate Register's Office to review the Court's public case records during public filing hours. Computer terminals and work ...",
+        "score": 0,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      }
+    ]
+  },
+  {
+    "market": "Little Rock AR",
+    "county": "Pulaski",
+    "state": "AR",
+    "deal": "foreclosure",
+    "had_broken_url": null,
+    "query": "Pulaski County AR sheriff sale foreclosure auction public records",
+    "search_error": null,
+    "candidates": [
+      {
+        "url": "https://pulaskiclerkar.gov/auction-about/",
+        "title": "Auctions and Foreclosures > Arkansas Pulaski County Circuit Clerk",
+        "description": "The Clerk's Office handles civil judicial foreclosures, also known as commissioner's sales. These are property sales scheduled for auction by court order.",
+        "score": 100,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://pulaskiclerkar.gov/auction-about/auction-notices/",
+        "title": "Upcoming Auctions > Arkansas Pulaski County Circuit Clerk",
+        "description": "Upcoming Auctions. Filed Notice:60CV-25-823. Date Posted: March 12, 2026. Date of Sale: April 23, 2026. See Details. Filed Notice:60CV-23-5169.",
+        "score": 100,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://pulaskiclerkar.gov/home-page/auction-archives/",
+        "title": "Auction Archives > Arkansas Pulaski County Circuit Clerk",
+        "description": "Date of Sale: January 15, 2026. See Details. Filed Notice:60CV-24-3638. Date Posted: November 25, 2025. Date of Sale: January 15, 2026.",
+        "score": 100,
+        "status": 200,
+        "final_url": "https://pulaskiclerkar.gov/auction-about/auction-archives/",
+        "alive": true
+      }
+    ]
+  },
+  {
+    "market": "Little Rock AR",
+    "county": "Pulaski",
+    "state": "AR",
+    "deal": "land_bank",
+    "had_broken_url": null,
+    "query": "Pulaski County AR land bank available properties for sale",
+    "search_error": null,
+    "candidates": [
+      {
+        "url": "https://pulaskiclerkar.gov/auction-about/",
+        "title": "Auctions and Foreclosures > Arkansas Pulaski County Circuit Clerk",
+        "description": "The Clerk's Office handles civil judicial foreclosures, also known as commissioner's sales. These are property sales scheduled for auction by court order.",
+        "score": 100,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://public-lar.epropertyplus.com/",
+        "title": "Little Rock Land Bank",
+        "description": "4418 Holt Rd. $189,000.00 ; 3504 Dr. Martin Luther King Jr Drive. $3,000.00 ; 3201 Arch Street. $6,650.00 ; 9712 Eva Lane. $18,000.00 ; 7513 Fairfield Dr,.",
+        "score": 0,
+        "status": 200,
+        "final_url": "https://public-lar.epropertyplus.com/landmgmtpub/",
+        "alive": true
+      },
+      {
+        "url": "https://www.land.com/Pulaski-County-AR/all-land/",
+        "title": "Land for Sale in Pulaski County, Arkansas - 728 Properties",
+        "description": "Find Pulaski County, Arkansas properties for sale on Land.com. Browse lots and acreage by price, size, amenities, and more.",
+        "score": 0,
+        "status": 403,
+        "final_url": null,
+        "alive": false
+      }
+    ]
+  },
+  {
+    "market": "Little Rock AR",
+    "county": "Pulaski",
+    "state": "AR",
+    "deal": "probate",
+    "had_broken_url": null,
+    "query": "Pulaski County AR probate court estate case search",
+    "search_error": null,
+    "candidates": [
+      {
+        "url": "https://pulaskiclerkar.gov/departments/county-records/",
+        "title": "County Records > Arkansas Pulaski County Circuit Clerk",
+        "description": "All Arkansas court documents, including criminal, civil, probate, domestic relations like divorces, are public records for anyone to search.",
+        "score": 100,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://pulaskiclerkar.gov/",
+        "title": "Arkansas Pulaski County Circuit Clerk",
+        "description": "Seal my criminal record \u00b7 Search a county court order \u00b7 Search real estate records \u00b7 Search campaign filings \u00b7 Search my divorce decree \u00b7 Sign up for property ...",
+        "score": 100,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://caseinfo.arcourts.gov/opad",
+        "title": "Case Search \u2022 Arkansas Judiciary",
+        "description": "For TIPS on navigating Search ARCourts, Click Here. If you experience ... Welcome to the Arkansas Judiciary. Case Search. Search by... Participants. \u200b. \u200b. \u200b. \u200b.",
+        "score": 100,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      }
+    ]
+  },
+  {
+    "market": "Lorain OH",
+    "county": "Lorain",
+    "state": "OH",
+    "deal": "land_bank",
+    "had_broken_url": "https://www.loraincountylandbank.org/",
+    "query": "Lorain County OH land bank available properties for sale",
+    "search_error": null,
+    "candidates": [
+      {
+        "url": "https://www.loraincountyohio.gov/728/Lorain-County-Land-Bank",
+        "title": "Lorain County Land Bank",
+        "description": "The Primary function of the County Land Bank is to serve as a facilitator for the return of vacant, abandoned, and tax foreclosed property.",
+        "score": 100,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://salesweb.civilview.com/Sales/SalesSearch?countyId=18",
+        "title": "Lorain County, OH - Sales Listing",
+        "description": "This site is provided as a public service by the Lorain County Sheriffs Office and is only intended to be general summary information to the public.",
+        "score": 75,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://www.cityoflorain.org/662/Properties-for-Sale",
+        "title": "Properties for Sale | Lorain, OH",
+        "description": "Properties for Sale. The City of Lorain is currently accepting bids for the sale of the following real estate parcels it owns - list of properties for sale.",
+        "score": 0,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      }
+    ]
+  },
+  {
+    "market": "Lorain OH",
+    "county": "Lorain",
+    "state": "OH",
+    "deal": "probate",
+    "had_broken_url": null,
+    "query": "Lorain County OH probate court estate case search",
+    "search_error": null,
+    "candidates": [
+      {
+        "url": "https://www.loraincountyohio.gov/clerk",
+        "title": "Clerk of Courts | Lorain County, OH",
+        "description": "Search Domestic Relations, Civil, Criminal and Court of Appeals Court Records. Access to the Lorain County Clerk of Court of Common Pleas computerized case ...",
+        "score": 100,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://probate.loraincounty.com/probate/search.shtml",
+        "title": "Search Records - Lorain County Probate Court",
+        "description": "225 Court Street, Room 611. Elyria, OH 44035 (440) 329-5175. Fax (440) 328-2157, Home | Search Records | Court Rules \u00b7 Forms | Estates | Guardianships",
+        "score": 75,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://probate.loraincounty.com/probate/",
+        "title": "Judge James T. Walther - Lorain County Probate Court",
+        "description": "Lorain County Probate Court ; Home \u00b7 Search for Records \u00b7 Court Rules \u00b7 Court Forms \u00b7 Estates \u00b7 Guardianships \u00b7 Marriage Licenses \u00b7 Marriage Application \u00b7 Other ...",
+        "score": 75,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      }
+    ]
+  },
+  {
+    "market": "Macon GA",
+    "county": "Bibb",
+    "state": "GA",
+    "deal": "foreclosure",
+    "had_broken_url": null,
+    "query": "Bibb County GA sheriff sale foreclosure auction public records",
+    "search_error": null,
+    "candidates": [
+      {
+        "url": "https://bibbsheriff.us/",
+        "title": "bibbsheriff.us | The Bibb County Sheriff's Office Official Website",
+        "description": "The official website of the Bibb County Sheriff's Office. This office strives to provide our citizens with courteous, professional law enforcement services.",
+        "score": 115,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://maconlandbank.org/property-auctions/",
+        "title": "Property Auctions - Macon-Bibb County Land Bank Authority",
+        "description": "Use the Google Maps feature below for information about the auction properties. The links will take you to qPublic where you can find more information.",
+        "score": 75,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://www.maconbibb.us/superior-court/clerk-of-superior-court/public-records-search/",
+        "title": "Public Records Search - Macon-Bibb County Government",
+        "description": "Search for land records or historical records. Search. reSearchGa. Search for criminal/civil documents. Search Not sure how to use it? Click here ...",
+        "score": 40,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      }
+    ]
+  },
+  {
+    "market": "Macon GA",
+    "county": "Bibb",
+    "state": "GA",
+    "deal": "land_bank",
+    "had_broken_url": "https://www.maconbibb.us/macon-bibb-land-bank-authority/",
+    "query": "Bibb County GA land bank available properties for sale",
+    "search_error": null,
+    "candidates": [
+      {
+        "url": "https://maconlandbank.org/property-auctions/",
+        "title": "Property Auctions - Macon-Bibb County Land Bank Authority",
+        "description": "Use the Google Maps feature below for information about the auction properties. The links will take you to qPublic where you can find more information.",
+        "score": 75,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://maconlandbank.org/",
+        "title": "Macon-Bibb County Land Bank Authority",
+        "description": "The Macon-Bibb County Land Bank Authority is an Equal Housing Opportunity Provider and does not discriminate in the sale, rental, and financing of housing, or ...",
+        "score": 75,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://wgxa.tv/news/local/macon-bibb-land-bank-authority-explains-how-they-sell-foreclosed-properties",
+        "title": "Macon-Bibb Land Bank Authority explains how they sell foreclosed ...",
+        "description": "Currently, the land bank has a total of 80 properties for sale in Bibb County, with only two different prices 400 dollars and 1,000 dollars.",
+        "score": 0,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      }
+    ]
+  },
+  {
+    "market": "Macon GA",
+    "county": "Bibb",
+    "state": "GA",
+    "deal": "lis_pendens",
+    "had_broken_url": null,
+    "query": "Bibb County GA lis pendens recorder deed search",
+    "search_error": null,
+    "candidates": [
+      {
+        "url": "https://www.maconbibb.us/superior-court/clerk-of-superior-court/public-records-search/",
+        "title": "Public Records Search - Macon-Bibb County Government",
+        "description": "Search for land records or historical records. Search. reSearchGa. Search for criminal/civil documents. Search Not sure how to use it? Click here ...",
+        "score": 40,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://bibbrecords.us/property-records",
+        "title": "Bibb County, Georgia Property Records | BibbRecords.us",
+        "description": "Explore Bibb County property records in 2026, including how to search online, free access options, and what's included in property records.",
+        "score": 40,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://www.gsccca.org/search",
+        "title": "Search - GSCCCA",
+        "description": "Search the Georgia Consolidated PT-61 by entering an address and viewing sales information on a Google Map. This is a premium search feature.",
+        "score": 0,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      }
+    ]
+  },
+  {
+    "market": "Macon GA",
+    "county": "Bibb",
+    "state": "GA",
+    "deal": "probate",
+    "had_broken_url": null,
+    "query": "Bibb County GA probate court estate case search",
+    "search_error": null,
+    "candidates": [
+      {
+        "url": "https://www.maconbibb.us/probate-court/record-search/",
+        "title": "Search Probate Records",
+        "description": "Search historical records online! Bibb County Probate Court historical records from 1829 to 1989 now available on RECORDhub.",
+        "score": 40,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://www.maconbibb.us/probate-court/general-index-records-search/",
+        "title": "Records search - Probate Court",
+        "description": "Search Probate Records \u00b7 Probate Court Videos \u00b7 Contact Us. General Index ... Sign up for email updates from Macon-Bibb County to get information on announcements ...",
+        "score": 40,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://www.maconbibb.us/probate-court/",
+        "title": "Probate Court Videos",
+        "description": "... probate of wills, the administration of estates, and the appointment of guardians. Click here to search Probate Records. Macon-Bibb County. 700 Poplar Street ...",
+        "score": 40,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      }
+    ]
+  },
+  {
+    "market": "Memphis TN",
+    "county": "Shelby",
+    "state": "TN",
+    "deal": "foreclosure",
+    "had_broken_url": "https://www.shelbycountytn.gov/1387/Foreclosures",
+    "query": "Shelby County TN sheriff sale foreclosure auction public records",
+    "search_error": null,
+    "candidates": [
+      {
+        "url": "https://www.shelbycountytn.gov/1514/FileSearch-Property-Documents",
+        "title": "File/Search Property Documents | Shelby County, TN - Official Website",
+        "description": "File property documents, initiate an appraisal review, initiate an appraisal review, lookup property taxes, lookup property taxes, pay property taxes, pay ...",
+        "score": 100,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://www.shelbycountytn.gov/330/Tax-Sale-Information",
+        "title": "Tax Sale Information | Shelby County, TN - Official Website",
+        "description": "The Chancery Court Clerk & Master's Office is responsible for conducting public auctions for delinquent real estate property taxes in Shelby County.",
+        "score": 100,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://register.shelby.tn.us/records-with-no-images",
+        "title": "Records with No Images | Shelby County Register of Deeds",
+        "description": "Below is a list of documents within the property sales data and where those documents may be found. Chancery Court, Taxpayer Letter / Death Notice / Marriage ...",
+        "score": 40,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      }
+    ]
+  },
+  {
+    "market": "Memphis TN",
+    "county": "Shelby",
+    "state": "TN",
+    "deal": "land_bank",
+    "had_broken_url": "https://www.memphistn.gov/government/divisions-departments-offices/city-divisions/memphis-and-shelby-county-land-bank/",
+    "query": "Shelby County TN land bank available properties for sale",
+    "search_error": null,
+    "candidates": [
+      {
+        "url": "https://landbank.shelbycountytn.gov/",
+        "title": "Shelby County Land Bank",
+        "description": "Visit our NEW web-based Listing and Mapping Site to view the properties that we currently have available. Just click on \"Properties For Sale\" listed below.",
+        "score": 175,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://landbank.shelbycountytn.gov/howItWorks",
+        "title": "How It Works - Shelby County Land Bank",
+        "description": "You may find Land Bank property at \"Properties For Sale\". Once you find a property you are interested in, create your eProperties account and click \u201capply\u201d ...",
+        "score": 175,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://public-sctn.epropertyplus.com/",
+        "title": "Shelby County Land Bank",
+        "description": "Shelby County Land Bank 1075 Mullins Station Rd., Bldg E1, Memphis, TN 38134; QUESTIONS 901-222-1150. EMAIL landbank@shelbycountytn.gov",
+        "score": 0,
+        "status": 200,
+        "final_url": "https://public-sctn.epropertyplus.com/landmgmtpub/",
+        "alive": true
+      }
+    ]
+  },
+  {
+    "market": "Memphis TN",
+    "county": "Shelby",
+    "state": "TN",
+    "deal": "lis_pendens",
+    "had_broken_url": null,
+    "query": "Shelby County TN lis pendens recorder deed search",
+    "search_error": null,
+    "candidates": [
+      {
+        "url": "https://www.shelbycountytn.gov/81/Register-of-DeedsArchives",
+        "title": "Register of Deeds / Archives | Shelby County, TN - Official Website",
+        "description": "The Register of Deeds files certain legal documents mainly pertaining to or affecting real estate and provides public access to these records.",
+        "score": 100,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://www.shelbycountytn.gov/1514/FileSearch-Property-Documents",
+        "title": "File/Search Property Documents | Shelby County, TN - Official Website",
+        "description": "File property documents, initiate an appraisal review, initiate an appraisal review, lookup property taxes, lookup property taxes, pay property taxes, pay ...",
+        "score": 100,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://register.shelby.tn.us/",
+        "title": "Shelby County Register of Deeds: Willie F. Brooks, Jr.",
+        "description": "Welcome to the Shelby County Register of Deeds, led by Register Willie Brooks. Access property records, deeds, and more with our efficient online services.",
+        "score": 40,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      }
+    ]
+  },
+  {
+    "market": "Memphis TN",
+    "county": "Shelby",
+    "state": "TN",
+    "deal": "probate",
+    "had_broken_url": null,
+    "query": "Shelby County TN probate court estate case search",
+    "search_error": null,
+    "candidates": [
+      {
+        "url": "https://www.shelbycountytn.gov/227/Probate-Court",
+        "title": "Probate Court | Shelby County, TN - Official Website",
+        "description": "Case Information - October 2013 to Present \u00b7 View Documents \u00b7 How to Search for Documents ... Wills and Estates. For copy orders - please e-mail probate.copies ...",
+        "score": 100,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://www.shelbycountytn.gov/3666/How-to-Search-for-Documents",
+        "title": "Searching for Shelby County Probate Court Documents",
+        "description": "Type the docket number into the search field using 8 digits total, with leading 0's before the numeric digits to fill any extra digits.",
+        "score": 100,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://probatedata.shelbycountytn.gov/ProbateCourt/",
+        "title": "Probate Court - Shelby County",
+        "description": "PROBATE CASE INFORMATION PW1. Case Name Search: Case Number Search: Admin: ... \u00a9 2018-2019 Shelby County Government || All Rights Reserved v 2.0.",
+        "score": 100,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      }
+    ]
+  },
+  {
+    "market": "Miami FL",
+    "county": "Miami-Dade",
+    "state": "FL",
+    "deal": "land_bank",
+    "had_broken_url": null,
+    "query": "Miami-Dade County FL land bank available properties for sale",
+    "search_error": null,
+    "candidates": [
+      {
+        "url": "https://www.miamidade.gov/apps/ISD/RealEstate_Portal/CountyOwnedProperties?sortOrder=prp_desc&pageIndex=33",
+        "title": "COP Search - Real Estate Portal - Miami-Dade County",
+        "description": "A current list of County-owned properties available for sale or conveyance, please use County Owned Properties for sale.",
+        "score": 100,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://www.miamidade.gov/global/service.page?Mduid_service=ser155717659747429",
+        "title": "Properties for Sale - Miami-Dade County",
+        "description": "The Internal Services' Real Estate Division maintains real property records and a database of all County-owned real property.",
+        "score": 100,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://www.loopnet.com/search/land/miami-dade-county-fl/for-sale/",
+        "title": "Land Parcels for Sale in Miami/Dade County, FL | LoopNet",
+        "description": "See 327 Miami/Dade County, FL Land Parcels for Sale on the #1 commercial real estate website.",
+        "score": 0,
+        "status": 403,
+        "final_url": null,
+        "alive": false
+      }
+    ]
+  },
+  {
+    "market": "Miami FL",
+    "county": "Miami-Dade",
+    "state": "FL",
+    "deal": "probate",
+    "had_broken_url": "https://www.miami-dadeclerk.com/clerkscorner/ProbateSearch.aspx",
+    "query": "Miami-Dade County FL probate court estate case search",
+    "search_error": null,
+    "candidates": [
+      {
+        "url": "https://www2.miamidadeclerk.gov/ocs/",
+        "title": "Civil, Family and Probate Courts Online System",
+        "description": "Getting Started. Select your preferred search method in the navigation menuleft sidebar. Enter the required search fields, marked with an *asterisk.",
+        "score": 100,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://www.miamidadeclerk.gov/clerk/probate-court.page",
+        "title": "Probate Court",
+        "description": "Please click here for more information. Clerk of the Courts - Miami-Dade County, Florida ... Civil, Family and Probate Case Search. Search for information ...",
+        "score": 100,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://www.miamidade.gov/global/navigation/service-index.page?INTERESTCATEGORY=courts-records",
+        "title": "Courts & Records",
+        "description": "Obtain certified copies for civil, family & divorce, marriage license, probate and other official court records. Civil, Family and Probate Courts Case Search.",
+        "score": 100,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      }
+    ]
+  },
+  {
+    "market": "Milwaukee WI",
+    "county": "Milwaukee",
+    "state": "WI",
+    "deal": "foreclosure",
+    "had_broken_url": "https://www.milwaukeecountysheriff.org/real-estate-sales/",
+    "query": "Milwaukee County WI sheriff sale foreclosure auction public records",
+    "search_error": null,
+    "candidates": [
+      {
+        "url": "https://county.milwaukee.gov/EN/Sheriff/Sheriff-Sales",
+        "title": "County of Milwaukee | Sheriff Sales",
+        "description": "Foreclosure sales are posted in the lobby of the Criminal Justice Facility, 949 N. 9th St. and in municipal locations in Milwaukee County.",
+        "score": 100,
+        "status": 403,
+        "final_url": null,
+        "alive": false
+      },
+      {
+        "url": "https://county.milwaukee.gov/EN/Treasurer/Foreclosed-Property-Sales",
+        "title": "Foreclosed Property Sales - Milwaukee County",
+        "description": "The Milwaukee County Sheriff has real estate auctions every Monday morning on properties that are lender foreclosures due to non-payment of the mortgage.",
+        "score": 100,
+        "status": 403,
+        "final_url": null,
+        "alive": false
+      },
+      {
+        "url": "https://dailyreporter.com/sheriff-sales/",
+        "title": "Milwaukee County Sheriff s Sales Foreclosure Listings The Daily ...",
+        "description": "The Daily Reporter publishes sheriff s sales foreclosure notices for Milwaukee County. Get the foreclosure information you need faster.",
+        "score": 0,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      }
+    ]
+  },
+  {
+    "market": "Milwaukee WI",
+    "county": "Milwaukee",
+    "state": "WI",
+    "deal": "land_bank",
+    "had_broken_url": null,
+    "query": "Milwaukee County WI land bank available properties for sale",
+    "search_error": null,
+    "candidates": [
+      {
+        "url": "https://county.milwaukee.gov/EN/Treasurer/Foreclosed-Property-Sales",
+        "title": "Foreclosed Property Sales - Milwaukee County",
+        "description": "The Milwaukee County Sheriff has real estate auctions every Monday morning on properties that are lender foreclosures due to non-payment of the mortgage.",
+        "score": 100,
+        "status": 403,
+        "final_url": null,
+        "alive": false
+      },
+      {
+        "url": "https://www.weichert.com/WI/Milwaukee/Milwaukee/Land_Bank/",
+        "title": "Land Bank Wisconsin Homes for Sale - Milwaukee - Weichert Realtors",
+        "description": "Homes for Sale by Type in Land Bank, Milwaukee, WI \u00b7 Single Family \u00b7 Townhouse \u00b7 Condo \u00b7 Commercial \u00b7 Rental \u00b7 Lots and Land \u00b7 Condo/Town/CoOp \u00b7 CoOp ...",
+        "score": 0,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://www.realtor.com/realestateandhomes-search/Land-Bank_Milwaukee_WI",
+        "title": "Land Bank, Milwaukee Homes for Sale & Real Estate | Realtor.com\u00ae",
+        "description": "Realtor.com\u00ae has homes for sale in Land Bank, Milwaukee, WI. Browse the latest real estate listings, apply advanced filters, and find your dream home today.",
+        "score": -50,
+        "status": 429,
+        "final_url": null,
+        "alive": false
+      }
+    ]
+  },
+  {
+    "market": "Milwaukee WI",
+    "county": "Milwaukee",
+    "state": "WI",
+    "deal": "lis_pendens",
+    "had_broken_url": null,
+    "query": "Milwaukee County WI lis pendens recorder deed search",
+    "search_error": null,
+    "candidates": [
+      {
+        "url": "https://county.milwaukee.gov/EN/Register-of-Deeds/Real-Estate-Records",
+        "title": "Real Estate Records | Milwaukee County Register of Deeds",
+        "description": "You can prepare and record deeds, research real estate documents and get copies of real estate documents from the Register of Deeds office. How to Obtain a Copy ...",
+        "score": 100,
+        "status": 403,
+        "final_url": null,
+        "alive": false
+      },
+      {
+        "url": "https://county.milwaukee.gov/EN/Register-of-Deeds",
+        "title": "Milwaukee County Register of Deeds",
+        "description": "The Milwaukee County Register of Deeds offers a free online automated service in which property owners can sign up to have their name monitored.",
+        "score": 100,
+        "status": 403,
+        "final_url": null,
+        "alive": false
+      },
+      {
+        "url": "https://county.milwaukee.gov/EN/Register-of-Deeds/Search",
+        "title": "register of deeds office",
+        "description": "REGISTER OF DEEDS. 901 N. 9th Street, Room 103. Milwaukee, WI 53233 \u00b7 (414) 278-4021. Fax (414) 223-1257. Office Hours: 8 a.m. \u2013 4 p.m.",
+        "score": 100,
+        "status": 403,
+        "final_url": null,
+        "alive": false
+      }
+    ]
+  },
+  {
+    "market": "New Orleans LA",
+    "county": "Orleans Parish",
+    "state": "LA",
+    "deal": "lis_pendens",
+    "had_broken_url": null,
+    "query": "Orleans Parish County LA lis pendens recorder deed search",
+    "search_error": null,
+    "candidates": [
+      {
+        "url": "https://nola.gov/land-records/",
+        "title": "Land Records: Mortgages, Conveyances, Notarial Archives",
+        "description": "All Orleans Parish land records such as sales, mortgages, building ... 1300 Perdido St, New Orleans, LA 70112 (504) 658-4000 Subscribe to email ...",
+        "score": 100,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://orleansparishrecords.us/property-records",
+        "title": "Orleans County, Louisiana Property Records",
+        "description": "Explore Orleans County property records in 2026, including how to search online, free access options, and what's included in property records.",
+        "score": 40,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://www.orleanscivilclerk.com/lr_home.html",
+        "title": "Land Records Division of the Clerk's Office",
+        "description": "All Orleans Parish land records such as sales, mortgages, building contracts and judgments of possession will now be filed and recorded in the Land Records ...",
+        "score": 0,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      }
+    ]
+  },
+  {
+    "market": "New Orleans LA",
+    "county": "Orleans Parish",
+    "state": "LA",
+    "deal": "probate",
+    "had_broken_url": null,
+    "query": "Orleans Parish County LA probate court estate case search",
+    "search_error": null,
+    "candidates": [
+      {
+        "url": "https://orleansparishrecords.us/",
+        "title": "Orleans County, Louisiana Public Records Lookup ...",
+        "description": "Learn all about accessing public records in Orleans County. Find out if it's an open records county, how to request public records, costs involved, ...",
+        "score": 40,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://www.orleanscivilclerk.com/onlinerecords.html",
+        "title": "Online Records - Orleans Parish Civil Clerk of Court",
+        "description": "An Online Records subscription will give the user access to all records systems maintained by the Clerk of Civil District Court for the Parish of Orleans.",
+        "score": 0,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://nolacityarchives.org/court-index-court-of-probates-successions/",
+        "title": "Court Index-Court of Probates Successions",
+        "description": "Search the index below to locate an individual's probate record, and whether a will or estate inventory was filed with the succession. Probate records, Will ...",
+        "score": 0,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      }
+    ]
+  },
+  {
+    "market": "Oklahoma City OK",
+    "county": "Oklahoma",
+    "state": "OK",
+    "deal": "land_bank",
+    "had_broken_url": null,
+    "query": "Oklahoma County OK land bank available properties for sale",
+    "search_error": null,
+    "candidates": [
+      {
+        "url": "https://oklahoma.gov/odot/business-center/land-for-sale.html",
+        "title": "Surplus Right-of-Way and Land for Sale - Oklahoma.gov",
+        "description": "Webmap of all Currently Available & Approved Surplus Right-of-Way that can be sold in a Sealed Bid Auction.",
+        "score": 100,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://www.landwatch.com/oklahoma-land-for-sale/oklahoma-county",
+        "title": "Oklahoma County, OK Land for Sale - Landwatch.com",
+        "description": "LandWatch has 660 land listings for sale in Oklahoma County, OK. Browse our Oklahoma County, OK land for sale listings, ...",
+        "score": 0,
+        "status": 403,
+        "final_url": null,
+        "alive": false
+      },
+      {
+        "url": "https://www.zillow.com/oklahoma-county-ok/land/",
+        "title": "Oklahoma County OK Land & Lots For Sale - 510 Listings | Zillow",
+        "description": "Oklahoma County OK Land ; $175,000. 10 acres lot \u00b7 Indian Meridian, Luther, OK 73054 ; $40,000. 2.17 acres lot \u00b7 John St, Spencer, OK 73084 ; $135,000. 5.02 acres ...",
+        "score": -50,
+        "status": 403,
+        "final_url": null,
+        "alive": false
+      }
+    ]
+  },
+  {
+    "market": "Oklahoma City OK",
+    "county": "Oklahoma",
+    "state": "OK",
+    "deal": "lis_pendens",
+    "had_broken_url": null,
+    "query": "Oklahoma County OK lis pendens recorder deed search",
+    "search_error": null,
+    "candidates": [
+      {
+        "url": "https://www.oklahomacounty.org/elected-offices/county-clerk",
+        "title": "County Clerk of Oklahoma County",
+        "description": "Click through the tabs to view the Clerk's Fee Schedule, find Documents & Forms, Public Records Search information, as well as, other services we offer. All ...",
+        "score": 0,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://okcc.online/",
+        "title": "OKCC.online",
+        "description": "No information is available for this page. \u00b7 Learn why",
+        "score": 0,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://okcountyrecords.com/",
+        "title": "OKCountyRecords.com | County Clerk Public Land Records for ...",
+        "description": "Search Oklahoma Land Records for Free! Accessing digitized public records from across Oklahoma has never been easier. 66 Counties; 27,685,983 Land Records ...",
+        "score": 0,
+        "status": 403,
+        "final_url": null,
+        "alive": false
+      }
+    ]
+  },
+  {
+    "market": "Oklahoma City OK",
+    "county": "Oklahoma",
+    "state": "OK",
+    "deal": "probate",
+    "had_broken_url": "https://www.oscn.net",
+    "query": "Oklahoma County OK probate court estate case search",
+    "search_error": null,
+    "candidates": [
+      {
+        "url": "https://oklacountyjudges.org/probate/",
+        "title": "Probate - Oklahoma County District Court",
+        "description": "Probate court hears cases related to the personal and financial affairs of adults and children. The Probate Division hears cases concerning ...",
+        "score": 0,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://www.okhistory.org/research/probate",
+        "title": "Search Probates from Oklahoma County",
+        "description": "This database includes an index of probate records from Oklahoma County as microfilmed by the LDS Church. The records date from 1890\u20131928 and vary in length.",
+        "score": 0,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://www.oscn.net/dockets/search.aspx",
+        "title": "Oklahoma Court Dockets Search - OSCN.net",
+        "description": "No information is available for this page. \u00b7 Learn why",
+        "score": 0,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      }
+    ]
+  },
+  {
+    "market": "Orlando FL",
+    "county": "Orange",
+    "state": "FL",
+    "deal": "land_bank",
+    "had_broken_url": null,
+    "query": "Orange County FL land bank available properties for sale",
+    "search_error": null,
+    "candidates": [
+      {
+        "url": "https://www.myorangeclerk.realforeclose.com/index.cfm",
+        "title": "Orange County Court Foreclosure Sales",
+        "description": "No information is available for this page. \u00b7 Learn why",
+        "score": 75,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://www.occompt.com/158/Land-Available-For-Taxes",
+        "title": "Land Available For Taxes | Orange County Comptroller, FL",
+        "description": "To search for properties on the list of Lands Available for Taxes, you will use the Tax Deed Sale Search. When searching, select \"Lands Available\" in the Status ...",
+        "score": 0,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://www.landwatch.com/florida-land-for-sale/orange-county/available/under-contract/off-market",
+        "title": "Orange County, FL Land for Sale with Inactive Properties",
+        "description": "LandWatch has 1632 land listings for sale in Orange County, FL. Browse our Orange County, FL land for sale listings, view photos and ...",
+        "score": 0,
+        "status": 403,
+        "final_url": null,
+        "alive": false
+      }
+    ]
+  },
+  {
+    "market": "Philadelphia PA",
+    "county": "Philadelphia",
+    "state": "PA",
+    "deal": "foreclosure",
+    "had_broken_url": "https://www.phila.gov/services/payments-assistance-taxes/property-taxes/look-up-real-estate-tax-balances/",
+    "query": "Philadelphia County PA sheriff sale foreclosure auction public records",
+    "search_error": null,
+    "candidates": [
+      {
+        "url": "https://www.phila.gov/services/property-lots-housing/foreclosure-sheriff-sales/",
+        "title": "Foreclosure & sheriff sales | Services - City of Philadelphia",
+        "description": "Information on buying a property from a sheriff's sale and claiming excess sheriff sale funds. Save your home from mortgage and tax foreclosure.",
+        "score": 100,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://phillysheriff.com/foreclosure/",
+        "title": "Tax Foreclosure Auctions - Philadelphia Sheriff's Office",
+        "description": "Welcome to Philadelphia's Sheriff Sales on Bid4Assets. Please visit the links below to view lists of tax foreclosure or mortgage foreclosure auctions. The ...",
+        "score": 75,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://phillysheriff.com/property-listing/",
+        "title": "Property Listing - Philadelphia Sheriff's Office",
+        "description": "Property Listing. Welcome to Philadelphia's Sheriff Sales on Bid4Assets. Please visit the links below to view lists of tax foreclosure or mortgage ...",
+        "score": 75,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      }
+    ]
+  },
+  {
+    "market": "Philadelphia PA",
+    "county": "Philadelphia",
+    "state": "PA",
+    "deal": "land_bank",
+    "had_broken_url": "https://www.phila.gov/real-estate-acquisition-disposition/Pages/real-estate-acquisition-disposition.aspx",
+    "query": "Philadelphia County PA land bank available properties for sale",
+    "search_error": null,
+    "candidates": [
+      {
+        "url": "https://www.phila.gov/departments/philadelphia-land-bank/",
+        "title": "Philadelphia Land Bank | Homepage",
+        "description": "Returning vacant and tax-delinquent properties to productive use. You can find more information on Philadelphia Land Bank on their website.",
+        "score": 100,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://www.phila.gov/services/property-lots-housing/buy-sell-or-rent-a-property/find-a-city-owned-property/",
+        "title": "Find a City-owned property | Services - City of Philadelphia",
+        "description": "PHDC manages more than 5,000 properties for sale around the city. Most properties are vacant land or buildings in need of major repairs. Properties are sold ...",
+        "score": 100,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://phillylandbank.org/",
+        "title": "Philadelphia Land Bank: Home",
+        "description": "Explore our available properties and programs today to take the next step. What do you want to do?",
+        "score": 75,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      }
+    ]
+  },
+  {
+    "market": "Philadelphia PA",
+    "county": "Philadelphia",
+    "state": "PA",
+    "deal": "lis_pendens",
+    "had_broken_url": "https://phillyhistory.org/PublicAjax/GetDocsByType.aspx?type=LIS+PENDENS",
+    "query": "Philadelphia County PA lis pendens recorder deed search",
+    "search_error": null,
+    "candidates": [
+      {
+        "url": "https://www.phila.gov/services/property-lots-housing/get-a-copy-of-a-deed-or-other-recorded-document/",
+        "title": "Get a copy of a deed or other recorded document - City of Philadelphia",
+        "description": "You can look up these records online, in person, or by mail. Recorded documents aren't searchable until two to four weeks after recording. Requirements ...",
+        "score": 100,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://www.phila.gov/departments/department-of-records/",
+        "title": "Department of Records | Homepage - City of Philadelphia",
+        "description": "What we do \u00b7 Records real estate documents in Philadelphia. \u00b7 Provides records management for City agencies. \u00b7 Provides printing services for City agencies.",
+        "score": 100,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://epayss.phila-records.com/web",
+        "title": "City of Philadelphia Department of Records",
+        "description": "Pursuant to City Council Bill No. 080424-A, new requirements apply to deed documents submitted for recording. The bill may be reviewed at www.phila.gov/records.",
+        "score": 0,
+        "status": 200,
+        "final_url": "https://epayss.phila-records.com/web/user/disclaimer",
+        "alive": true
+      }
+    ]
+  },
+  {
+    "market": "Philadelphia PA",
+    "county": "Philadelphia",
+    "state": "PA",
+    "deal": "probate",
+    "had_broken_url": null,
+    "query": "Philadelphia County PA probate court estate case search",
+    "search_error": null,
+    "candidates": [
+      {
+        "url": "https://www.phila.gov/services/birth-marriage-life-events/death-probate-and-inheritances/request-probate-records/",
+        "title": "Request probate records | Services - City of Philadelphia",
+        "description": "To request records in person, go to the office of the Register of Wills. City Hall Room 180. Philadelphia, PA 19107. Our office hours are Monday through Friday, ...",
+        "score": 100,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://www.phila.gov/departments/register-of-wills/",
+        "title": "Register of Wills | Homepage | City of Philadelphia",
+        "description": "Providing marriage licenses and probating estates. Services: Get a marriage license, Find and request a marriage record, Request probate records.",
+        "score": 100,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://www.pacourts.us/public-records",
+        "title": "Public Records | Unified Judicial System of Pennsylvania",
+        "description": "Court Case Information. Search and view individual court case information (including docket sheets)\u2014for free\u2014please go to the UJS web portal. Financial Records.",
+        "score": 40,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      }
+    ]
+  },
+  {
+    "market": "Phoenix AZ",
+    "county": "Maricopa",
+    "state": "AZ",
+    "deal": "foreclosure",
+    "had_broken_url": null,
+    "query": "Maricopa County AZ sheriff sale foreclosure auction public records",
+    "search_error": null,
+    "candidates": [
+      {
+        "url": "https://recorder.maricopa.gov/recording/document-search.html",
+        "title": "Document Search - the Maricopa County Recorder's Office",
+        "description": "Search by Recorded Document Number: RECORDED DOCUMENT NUMBER (EX 20030930317) Search by document that was recorded using the Docket/Book and Page system.",
+        "score": 175,
+        "status": 403,
+        "final_url": null,
+        "alive": false
+      },
+      {
+        "url": "https://recorder.maricopa.gov/",
+        "title": "Welcome to the Maricopa County Recorder's Office",
+        "description": "On our website you can search and file publicly recorded documents, keep up with the latest news from our office, and more. THE MARICOPA COUNTY RECORDER'S ...",
+        "score": 175,
+        "status": 403,
+        "final_url": null,
+        "alive": false
+      },
+      {
+        "url": "https://www.maricopa.gov/746/Auctions-Leases",
+        "title": "Auctions and Leases | Maricopa County, AZ",
+        "description": "Prospective buyers need to fill out and submit the Request for Public Auction form and submit the form to Property Management.",
+        "score": 100,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      }
+    ]
+  },
+  {
+    "market": "Phoenix AZ",
+    "county": "Maricopa",
+    "state": "AZ",
+    "deal": "land_bank",
+    "had_broken_url": null,
+    "query": "Maricopa County AZ land bank available properties for sale",
+    "search_error": null,
+    "candidates": [
+      {
+        "url": "https://www.maricopa.gov/5325/Available-for-Sale",
+        "title": "Available for Sale | Maricopa County, AZ",
+        "description": "Available for Sale. The Maricopa County Real Estate Department is responsible for disposing of excess land owned by the Flood Control District of Maricopa ...",
+        "score": 100,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://www.maricopa.gov/746/Auctions-Leases",
+        "title": "Auctions and Leases | Maricopa County, AZ",
+        "description": "Scheduled land auctions and information about the properties being auctioned.",
+        "score": 100,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://azdot.gov/business/right-way-properties/vacant-land-and-commercial-properties-sale",
+        "title": "Vacant Land and Commercial Properties for Sale",
+        "description": "The following properties are now available for sale. Please call 602.712.7587 or email us for additional information.",
+        "score": 100,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      }
+    ]
+  },
+  {
+    "market": "Pittsburgh PA",
+    "county": "Allegheny",
+    "state": "PA",
+    "deal": "lis_pendens",
+    "had_broken_url": null,
+    "query": "Allegheny County PA lis pendens recorder deed search",
+    "search_error": null,
+    "candidates": [
+      {
+        "url": "https://www.alleghenycounty.us/Government/Records/Land-Records",
+        "title": "Land Records - Allegheny County, PA",
+        "description": "Obtain copies of land-related documents, including deeds, mortgages, and mortgage satisfactions. Explore in-person, mailing, and online options.",
+        "score": 40,
+        "status": 403,
+        "final_url": null,
+        "alive": false
+      },
+      {
+        "url": "https://www.alleghenycounty.us/Government/Records",
+        "title": "Records - Allegheny County, PA",
+        "description": "Search various legal records on file with Allegheny County, including birth and death certificates, marriage licenses, land records, and more. Document Portal.",
+        "score": 40,
+        "status": 403,
+        "final_url": null,
+        "alive": false
+      },
+      {
+        "url": "https://www.alleghenycounty.us/Services/Property-Assessments-and-Real-Estate/Property-Record-Search",
+        "title": "Property Record Search - Allegheny County, PA",
+        "description": "Search for property assessment records, including: Tax information; Building information; Owner history; Comparable properties; Assessment appeal status; Maps ...",
+        "score": 40,
+        "status": 403,
+        "final_url": null,
+        "alive": false
+      }
+    ]
+  },
+  {
+    "market": "St. Louis MO",
+    "county": "St. Louis City",
+    "state": "MO",
+    "deal": "foreclosure",
+    "had_broken_url": "https://stlcin.missouri.org/",
+    "query": "St. Louis City County MO sheriff sale foreclosure auction public records",
+    "search_error": null,
+    "candidates": [
+      {
+        "url": "https://www.stlouis-mo.gov/government/departments/sheriff/documents/current-land-tax-sale-properties.cfm",
+        "title": "Current Land Tax Sale Properties - City of St. Louis",
+        "description": "Land Tax sales are held 5 times a year. Sales are held outside at 9:00 am sharp on the 11th Street Side of the Civil Courts Building at 10 N Tucker Blvd.",
+        "score": 100,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://stlouiscountymo.gov/st-louis-county-departments/revenue/collector-of-revenue/post-third-sale-offerings/",
+        "title": "Post Third Sale Offerings - St. Louis County Website",
+        "description": "Properties that have been offered but did not sell at the Collector of Revenue's annual tax sale auction for three consecutive years, become 'Post Third Sale ...",
+        "score": 100,
+        "status": 403,
+        "final_url": null,
+        "alive": false
+      },
+      {
+        "url": "https://stlouiscountymo.gov/st-louis-county-departments/revenue/collector-of-revenue/real-property-tax-sale/",
+        "title": "Real Property Tax Sale - St. Louis County Website",
+        "description": "The 2025 auction books are posted below. \u00b7 Bidders: You are bidding on a tax lien certificate for properties with three or more years of delinquent taxes.",
+        "score": 100,
+        "status": 403,
+        "final_url": null,
+        "alive": false
+      }
+    ]
+  },
+  {
+    "market": "St. Louis MO",
+    "county": "St. Louis City",
+    "state": "MO",
+    "deal": "land_bank",
+    "had_broken_url": "https://www.stlouis-mo.gov/government/departments/sldc/real-estate/lra-owned-properties.cfm",
+    "query": "St. Louis City County MO land bank available properties for sale",
+    "search_error": null,
+    "candidates": [
+      {
+        "url": "https://www.stlouis-mo.gov/government/property/city-owned-property-search.cfm",
+        "title": "Available City-Owned Property Search - City of St. Louis",
+        "description": "Search available property owned by the City of St. Louis. Available Properties. The search includes inventory owned by different organizations within the city.",
+        "score": 100,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://www.developstlouis.org/buy-property-from-the-city",
+        "title": "Buy Property from the City's Land Bank - LRA",
+        "description": "The Land Reutilization Authority (LRA) of the City of St. Louis is responsible for the stewardship and sale of previously abandoned and foreclosed properties.",
+        "score": 0,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://www.stlvacancy.com/stlcolandbankcoalition.html",
+        "title": "St. Louis Land Bank Coalition - STL VACANCY COLLABORATIVE",
+        "description": "A coalition of partners sat down to talk about how to fix the growing problem of vacant and abandoned properties in some St. Louis County communities.",
+        "score": 0,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      }
+    ]
+  },
+  {
+    "market": "St. Louis MO",
+    "county": "St. Louis City",
+    "state": "MO",
+    "deal": "lis_pendens",
+    "had_broken_url": null,
+    "query": "St. Louis City County MO lis pendens recorder deed search",
+    "search_error": null,
+    "candidates": [
+      {
+        "url": "https://www.stlouis-mo.gov/government/departments/recorder/index.cfm",
+        "title": "Recorder of Deeds and Vital Records Registrar",
+        "description": "Recorder of Deeds and Vital Records Registrar. Birth, death, land, marriage records, and archival records. Email (314) 622-4610 More contact info",
+        "score": 100,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://stlouiscountymo.gov/st-louis-county-departments/revenue/recorder-of-deeds/",
+        "title": "Recorder of Deeds - St. Louis County Website",
+        "description": "Recorder of Deeds records and files documents of writing affecting real property, personal property subdivision plats, federal and state tax liens, ...",
+        "score": 100,
+        "status": 403,
+        "final_url": null,
+        "alive": false
+      },
+      {
+        "url": "https://stlouiscountymo.gov/st-louis-county-departments/revenue/recorder-of-deeds/deed-search/",
+        "title": "Deed Search - St. Louis County Website",
+        "description": "It offers access to documents recorded in over 90 counties located in MO, WA, WI, IL, MN, and MI. Please note that you will need the locator number of your ...",
+        "score": 100,
+        "status": 403,
+        "final_url": null,
+        "alive": false
+      }
+    ]
+  },
+  {
+    "market": "St. Louis MO",
+    "county": "St. Louis City",
+    "state": "MO",
+    "deal": "probate",
+    "had_broken_url": null,
+    "query": "St. Louis City County MO probate court estate case search",
+    "search_error": null,
+    "candidates": [
+      {
+        "url": "https://stlouiscountymo.gov/st-louis-county-government/municipal-court/case-search/",
+        "title": "Case Search - St. Louis County Website",
+        "description": "Municipal Court \u00b7 Case Search. Find My Case. If a case has been filed against you in the St. Louis County Municipal Court, you can search for your case below.",
+        "score": 100,
+        "status": 403,
+        "final_url": null,
+        "alive": false
+      },
+      {
+        "url": "https://stlouiscountycourt.us/probate-records",
+        "title": "St. Louis County Probate Court Records",
+        "description": "Access St. Louis county probate court records online. Search probate case information quickly, securely, and in one convenient place.",
+        "score": 40,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://www.stlcitycircuitcourt.com/courts_services/probate_court/historical_probate_case_index.php",
+        "title": "Requesting Probate Records",
+        "description": "The Probate Division maintains an index of all decedent estates filed between 1890 and May 31, 2000, and all guardianships filed between 1815 and May 31, 2000.",
+        "score": 0,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      }
+    ]
+  },
+  {
+    "market": "Tampa FL",
+    "county": "Hillsborough",
+    "state": "FL",
+    "deal": "land_bank",
+    "had_broken_url": null,
+    "query": "Hillsborough County FL land bank available properties for sale",
+    "search_error": null,
+    "candidates": [
+      {
+        "url": "https://hcfl.gov/government/real-estate/surplus-county-lands",
+        "title": "Surplus County Lands",
+        "description": "If surplus lands are available, hover over the red For Sale Sign to get property information. If there are no For Sale signs on the map, then we ...",
+        "score": 100,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://www.hillsclerk.com/court-services/foreclosure-sales",
+        "title": "Foreclosure Sales - Hillsclerk",
+        "description": "A list of the properties scheduled for sale is available online at Hillsborough County Clerk of Courts Foreclosure Sales. You are encouraged to visit the online ...",
+        "score": 0,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://www.auction.com/residential/fl/hillsborough-county",
+        "title": "Foreclosure and Bank Owned Auctions in Hillsborough County, FL",
+        "description": "41 Properties in Hillsborough County, FL ; 2242 Colville Chase Dr, Ruskin, FL 33570. Bank Owned ; 8350 Savannah Trace Circle 20, Tampa, FL 33615. Bank Owned ; 8619 ...",
+        "score": -50,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      }
+    ]
+  },
+  {
+    "market": "Toledo OH",
+    "county": "Lucas",
+    "state": "OH",
+    "deal": "land_bank",
+    "had_broken_url": "https://www.toledolucascountylandbank.org/",
+    "query": "Lucas County OH land bank available properties for sale",
+    "search_error": null,
+    "candidates": [
+      {
+        "url": "https://lucascountylandbank.org/properties",
+        "title": "Properties \u2013 Lucas County Land Bank",
+        "description": "We sell properties through local real estate brokers. Our inventory is always changing. We encourage you to check back here frequently.",
+        "score": 75,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://lucascountylandbank.org/",
+        "title": "Lucas County Land Bank: Home",
+        "description": "Through renovation and investment, we turn empty properties into homeownership opportunities. Properties for Sale. Helping Everyone. Our goal is to serve each ...",
+        "score": 75,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://www.lucascountytreasurer.org/land-bank",
+        "title": "Lucas County Land Bank",
+        "description": "By partnering with local communities, the Land Bank transforms vacant, abandoned, and tax-delinquent properties into healthy, occupied, and tax-paying assets.",
+        "score": 0,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      }
+    ]
+  },
+  {
+    "market": "Toledo OH",
+    "county": "Lucas",
+    "state": "OH",
+    "deal": "probate",
+    "had_broken_url": "https://www.lucascountyohio.gov/elected-officials/probate-court",
+    "query": "Lucas County OH probate court estate case search",
+    "search_error": null,
+    "candidates": [
+      {
+        "url": "https://www.co.lucas.oh.us/169/Probate-Court",
+        "title": "Probate Court | Lucas County, OH - Official Website",
+        "description": "Lucas County Probate Court ... Real Estate Info \u00b7 NOTIFY ME Receive Notifications \u00b7 Jobs Apply Online \u00b7 Submit a Request Contact the County \u00b7 Forms Search Online ...",
+        "score": 40,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://eaccess.lucas-co-probate-ct.org/eservices/home.page.2",
+        "title": "Lucas County (Toledo) Probate Court Online Search",
+        "description": "",
+        "score": 0,
+        "status": 0,
+        "final_url": null,
+        "alive": false,
+        "error": "HTTPSConnectionPool(host='eaccess.lucas-co-probate-ct.org', port=443): Max retries exceeded with url: /eservices/home.pa"
+      },
+      {
+        "url": "https://www.toledolegalnews.com/courts/probate/",
+        "title": "Probate Court of Lucas County | toledolegalnews.com",
+        "description": "ASSIGNMENT DOCKET \u00b7 Proabte Court Filings Received on 4/20/2026 \u00b7 Probate Court Filings Received on 4/16/2026 \u00b7 Probate Court Filings Received on 4/15/2026.",
+        "score": 0,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      }
+    ]
+  },
+  {
+    "market": "Tulsa OK",
+    "county": "Tulsa",
+    "state": "OK",
+    "deal": "foreclosure",
+    "had_broken_url": null,
+    "query": "Tulsa County OK sheriff sale foreclosure auction public records",
+    "search_error": null,
+    "candidates": [
+      {
+        "url": "https://tcso.org/resources/property-auctions/",
+        "title": "Property Auctions - Tulsa County Sheriff's Office",
+        "description": "The Tulsa County Sheriff's Office is legally mandated to sell foreclosed properties as set forth in state statute. The property lists are normally updated each ...",
+        "score": 0,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://tcso.org/public-auction-report/",
+        "title": "Public Auction Report - Tulsa County Sheriff's Office",
+        "description": "Property Auctions, Evictions, Teen Driving Course, Concealed Carry Permits, Jail Information, PREA Act Information, Open Records Requests",
+        "score": 0,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://www2.tulsacounty.org/treasurer/properties-for-sale/june-real-estate-auction/",
+        "title": "June Real Estate Auction - Treasurer - Tulsa County",
+        "description": "This auction is for the sale of real estate for non-payment of ad valorem ... The sale is open to the public and all properties are sold to the highest bidder.",
+        "score": 0,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      }
+    ]
+  },
+  {
+    "market": "Tulsa OK",
+    "county": "Tulsa",
+    "state": "OK",
+    "deal": "land_bank",
+    "had_broken_url": null,
+    "query": "Tulsa County OK land bank available properties for sale",
+    "search_error": null,
+    "candidates": [
+      {
+        "url": "https://www2.tulsacounty.org/treasurer/properties-for-sale/county-properties/",
+        "title": "County Properties for Sale",
+        "description": "County Properties for Sale - a complete listing of properties available to be auctioned. Guidelines for Purchasing County Properties - purchasing instructions.",
+        "score": 0,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://tcso.org/resources/property-auctions/",
+        "title": "Property Auctions - Tulsa County Sheriff's Office",
+        "description": "An updated list of the properties will be available for viewing. DO NOT remove the list. This updated list of the properties is for use by all sale attendees.",
+        "score": 0,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://www.zillow.com/tulsa-county-ok/bank-owned/",
+        "title": "Tulsa County OK Bank Owned Homes & REO Properties For Sale",
+        "description": "Filter your house search to just find bank owned homes and REO properties in Tulsa County OK matching Bank Owned. Get a great deal that could be lower than ...",
+        "score": -50,
+        "status": 403,
+        "final_url": null,
+        "alive": false
+      }
+    ]
+  },
+  {
+    "market": "Tulsa OK",
+    "county": "Tulsa",
+    "state": "OK",
+    "deal": "lis_pendens",
+    "had_broken_url": null,
+    "query": "Tulsa County OK lis pendens recorder deed search",
+    "search_error": null,
+    "candidates": [
+      {
+        "url": "https://countyclerk.tulsacounty.org/",
+        "title": "Tulsa County Clerk",
+        "description": "The County Clerk is the recorder and custodian of land records and other real estate documents in the county. In addition, the County Clerk serves as the Chief ...",
+        "score": 0,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://acclaim.tulsacounty.org/AcclaimWeb",
+        "title": "Document Search",
+        "description": "PLEASE MAKE A SELECTION BELOW TO BEGIN. Name. Document #. Date Range/Document Type. Book/Page. Record Date. Consideration. Subdivision/Condo.",
+        "score": 0,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://countyclerk.tulsacounty.org/Home/Land",
+        "title": "Real Estate Services Division",
+        "description": "Included in these records are deeds, mortgages, liens and subdivision plats. ... To search, view, and print Tulsa County Clerk Records online, you must ...",
+        "score": 0,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      }
+    ]
+  },
+  {
+    "market": "Tulsa OK",
+    "county": "Tulsa",
+    "state": "OK",
+    "deal": "probate",
+    "had_broken_url": "https://www.oscn.net",
+    "query": "Tulsa County OK probate court estate case search",
+    "search_error": null,
+    "candidates": [
+      {
+        "url": "https://courtclerk.tulsacounty.org/Home/Probate",
+        "title": "Probate - Tulsa County Court Clerk",
+        "description": "Probate of an Estate: Forms may be available in the Law Library or in the ... 500 South Denver Ave. Room 200. Tulsa, Oklahoma 74103-3832 918-596-5439.",
+        "score": 0,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://www.oscn.net/courts/tulsa",
+        "title": "Tulsa County Court Records Search - OSCN.net",
+        "description": "No information is available for this page. \u00b7 Learn why",
+        "score": 0,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      },
+      {
+        "url": "https://tulsacountycourt.org/court-records/",
+        "title": "Court Records - Tulsa County Court",
+        "description": "Court records are documents created during legal proceedings, such as criminal case files, bankruptcy records, and records from family or probate court.",
+        "score": 0,
+        "status": 200,
+        "final_url": null,
+        "alive": true
+      }
+    ]
+  }
+]

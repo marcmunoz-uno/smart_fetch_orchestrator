@@ -1,4 +1,14 @@
 import os
+from pathlib import Path
+
+# Load ~/.openclaw/.env so API keys are available regardless of launch context
+_openclaw_env = Path.home() / ".openclaw" / ".env"
+if _openclaw_env.exists():
+    try:
+        from dotenv import load_dotenv
+        load_dotenv(_openclaw_env, override=False)  # don't override explicit env vars
+    except ImportError:
+        pass
 
 # BrightData MCP
 BRIGHTDATA_TOKEN = os.environ.get("BRIGHTDATA_TOKEN", "")
@@ -28,7 +38,9 @@ CLOUDFLARE_EMAIL = os.environ.get("CLOUDFLARE_EMAIL", "")
 # URL routing rules — which fetcher to use for which domain
 ROUTE_RULES = {
     "zillow.com": {
-        "pdp": ["brightdata_zillow", "curl_cffi", "firecrawl", "browserbase", "playwright"],
+        # firecrawl first: BD MCP transport is broken; curl_cffi gets 403 on PDPs.
+        # firecrawl reliably bypasses PX for both search and PDP pages.
+        "pdp": ["firecrawl", "brightdata_zillow", "curl_cffi", "browserbase", "playwright"],
         # firecrawl first: smoke test (Apr 22) showed firecrawl reliably returns
         # full Zillow search HTML while browserbase hits PX 403 ~50% of the time.
         "search": ["firecrawl", "browserbase", "curl_cffi", "brightdata_proxy_playwright"],

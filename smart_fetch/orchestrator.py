@@ -391,8 +391,13 @@ def fetch_market(city: str, state: str, min_price: int = 50000, max_price: int =
 
     def _collect_urls_from_page(search_url: str) -> set:
         r = fetch_url(search_url, wait_selector="article")
-        if r.get("success") and r.get("html"):
-            return set(re.findall(r'https://www\.zillow\.com/homedetails/[^\s"\']+', r["html"]))
+        if not r.get("success"):
+            return set()
+        # Firecrawl returns markdown (no html key); curl_cffi/playwright return html.
+        # Search both so either fetcher path works.
+        text = (r.get("html") or "") + (r.get("markdown") or "")
+        if text:
+            return set(re.findall(r'https://www\.zillow\.com/homedetails/[^\s"\')\]]+', text))
         return set()
 
     # First try the filtered path; if the result is thin, try the unfiltered one.
